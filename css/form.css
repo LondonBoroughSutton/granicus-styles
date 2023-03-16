@@ -46,16 +46,11 @@
     padding: 10px;
     background-color: #fff;
 }
-
-.notification-banner__heading
-{
-margin-bottom:0px !important;}
-
 /*Confirmation panel*/
 
 .confirmation-panel-container {
     color: #fff;
-    background: #008f5f;
+    background: #1D6D45;
 }
 
 .confirmation-panel {
@@ -467,6 +462,7 @@ section.sectionsHead.navbar-default.render {
 /*Remove the form sections border*/
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
     border: none;
+    background-color: white !important;
 }
 
 /*Added by Merizza on 31/12/2020*/
@@ -577,8 +573,7 @@ li.sectionNameWrapper.invalid.erroricon a::before {
 /*Adding green button to selection field*/
 input[type=checkbox]:checked+label.btn:after,
 input[type=radio]:checked+label.btn:after {
-	/*content: "\2714";*/
-	content: "";
+	content: "\2714";
 	position: absolute;
 	margin-top: -4px;
 	right: -30px;
@@ -607,6 +602,7 @@ a.form-name:visisted {
 
 span.form-link-color {
 	color: inherit;
+    font-weight: 500 !important;
 }
 
 /*Red Call-to-action button styles*/
@@ -786,15 +782,27 @@ span.form-link-color {
 	
 }
 
+
+.sectionNameWrapper {
+    width: auto !important;
+    margin: 0px 5px !important;
+    height: 47px;
+
+}
+
 @media (max-width: 767px)
 {
-.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
-    width: auto !important;
-    margin: 0px 5px !important; 
-}
 
 .col-sm-4 {
     width: 100% !important;
+}
+
+.col-xs-2 {
+    width: 40% !important;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
+    width: auto !important;
+    margin: 0px 5px !important; 
 }
 
 .sections-toggle-wrapper {display:block !important;}
@@ -1307,13 +1315,6 @@ border:2px solid #000 !important;}
 label.prefix, span.prefix {
     border: none important;
 }
-
-.char-count {
-    float: left;
-    font-size: 19px;
-    margin: 0px 0px 10px 0px;
-}
-
-.read_only_field { 
-    font-size: 19px !important;
-}
+.radio2[disabled]+label::after
+{
+border:0px !important;}

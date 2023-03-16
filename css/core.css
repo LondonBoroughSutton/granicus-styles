@@ -53,7 +53,7 @@ a:focus {
 	padding: 3px 8px;
 	color : #000;
  }
- 
+
 .achieveforms-container select:focus {
 	border: 2px solid #000;
 }
@@ -152,7 +152,7 @@ a:focus {
 
 
 .btn-default {
-    /*color: #333 !important;*/
+    color: #fff !important;
     background-color: #fff;
     border-color: #ccc;
     padding: 5px 10px !important;
