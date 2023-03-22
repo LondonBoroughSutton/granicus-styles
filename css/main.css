@@ -9992,13 +9992,8 @@ input[type="text"]:focus {
   border: 0 !important;
 }
 
-.btn-af:focus {
-border-bottom: 4px solid #2e7d6b !important;
-}
-
 button:hover {
   background-color: #19a988 !important;
-  border-bottom: 4px solid #2e7d6b !important;
 }
 
 #app-content {
@@ -10026,16 +10021,17 @@ button:hover {
 .cancelbutton,
 .nextbutton,
 .savebutton {
-  /*background: #fff !important;*/
-  color: #fff !important;
+  border: 2px solid #2e7d6b !important;
+  background: #fff !important;
+  color: #2e7d6b !important;
 }
 
 .previousbutton:hover,
 .cancelbutton:hover,
 .nextbutton:hover,
 .savebutton:hover {
-  border-bottom: 4px solid #2e7d6b !important;
-  background: #3FAD94 !important;
+  border: 2px solid #2e7d6b !important;
+  background: #2e7d6b !important;
   color: #fff !important;
 }
 
@@ -10273,11 +10269,11 @@ li.sectionNameWrapper.valid a {
   }
 
   .sections-toggle-wrapper.visible-xs {
-     display: none !important;
+    display: none !important;
   }
 
   a.sectionNameTab {
-  /*  display: none !important;*/
+    display: none !important;
   }
 }
 

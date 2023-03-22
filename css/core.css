@@ -29,7 +29,7 @@ input[type='text'], input[type='number'] {
 {margin-bottom:0px !important;}
 
 a:link,html._AF a {
-    color: #028257;
+    color: #005ea5;
 	padding: 0 2px;
 	text-decoration: underline;
 }
@@ -38,9 +38,9 @@ a:hover,html._AF a:hover {
 }
 
 a:focus {
- /* outline: 3px solid transparent;*/
+  outline: 3px solid transparent;
   color: #fff !important;
-  background-color: #1D6D45;
+  background-color: #01BF7F;
   -webkit-box-shadow: 0 -2px #fd0,0 4px #0b0c0c;
   box-shadow: 0 -2px #09509d,0 4px #0b0c0c;
   text-decoration: none !important;
@@ -102,8 +102,8 @@ a:focus {
     box-shadow: none;
     text-shadow: none;
     border: 0;
-    background-color: #2e7d6b;
-    /*background-color: #162755;*/
+    /*background-color: #00823b;*/
+	background-color: #162755;
     box-shadow: 0 2px 0 #003518;
 }
 /*._AF .btn-af.active, ._AF .btn-af:active, ._AF .btn-af:focus, ._AF .btn-af:hover, .achieveforms-container .btn-af.active, .achieveforms-container .btn-af:active, .achieveforms-container .btn-af:focus, .achieveforms-container .btn-af:hover, .open .dropdown-toggle._AF .btn-af, .open .dropdown-toggle.achieveforms-container .btn-af {
@@ -111,7 +111,7 @@ a:focus {
 }*/
 
 ._AF .btn-af.active, ._AF .btn-af:active,  ._AF .btn-af:hover, .achieveforms-container .btn-af.active, .achieveforms-container .btn-af:active, .achieveforms-container .btn-af:hover, .open .dropdown-toggle._AF .btn-af, .open .dropdown-toggle.achieveforms-container .btn-af {
-    background-color: #428676;
+    background-color: #2C498E;
 }
 .achieveforms-container .fillinButtons .btn:focus,._AF .btn-af:focus, .achieveforms-container .btn-af:focus {
   border-color: #09509d;
@@ -122,9 +122,9 @@ a:focus {
 }
 
  .btn:focus:not(:active):not(:hover),.btn-af:focus:not(:active):not(:hover) {
-  border-color: #1d5d4e;
+  border-color: #09509d;
   color: #0b0c0c;
-  background-color: #1d5d4e;
+  background-color: #09509d;
   -webkit-box-shadow: 0 2px 0 #0b0c0c;
   box-shadow: 0 2px 0 #0b0c0c;
 }
@@ -142,16 +142,14 @@ a:focus {
 }
 .achieveforms-container .fillinButtons .btn:focus {
     color: #fff;
-    background-color: #1d5d4e;
+    background-color: #09509d;
 }
-.achieveforms-container .fillinButtons .btn span {
-    font-weight: 400 !important;
-}
+
 /*login page*/
 /*login screen button*/
 
 .btn-default {
-    color: #fff !important;
+    color: #333 !important;
     background-color: #fff;
     border-color: #ccc;
     padding: 5px 10px !important;
@@ -182,7 +180,7 @@ a:focus {
 .btn-group {
     text-align: center;
     display: block !important;
-    /*margin-bottom: 30px !important;*/
+    margin-bottom: 30px !important;
 }
 
 .error-text {
@@ -193,15 +191,9 @@ a:focus {
     border-left: 4px solid red;
     padding-left: 5px;
 }
-/*For dash*/
 
 .panel-primary > .panel-heading {
     color: #ffffff;
     background-color: #0d7942 !important;
     border-color: #0d7942 !important;
-}
-
-.text-area-readonly
- {
-border: none !important;
 }

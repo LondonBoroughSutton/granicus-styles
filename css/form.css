@@ -462,7 +462,6 @@ section.sectionsHead.navbar-default.render {
 /*Remove the form sections border*/
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
     border: none;
-    background-color: white !important;
 }
 
 /*Added by Merizza on 31/12/2020*/
@@ -602,7 +601,6 @@ a.form-name:visisted {
 
 span.form-link-color {
 	color: inherit;
-    font-weight: 500 !important;
 }
 
 /*Red Call-to-action button styles*/
@@ -782,24 +780,8 @@ span.form-link-color {
 	
 }
 
-
-.sectionNameWrapper {
-    width: auto !important;
-    margin: 0px 5px !important;
-    height: 47px;
-
-}
-
 @media (max-width: 767px)
 {
-
-.col-sm-4 {
-    width: 100% !important;
-}
-
-.col-xs-2 {
-    width: 40% !important;
-}
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
     width: auto !important;
     margin: 0px 5px !important; 
@@ -1315,6 +1297,3 @@ border:2px solid #000 !important;}
 label.prefix, span.prefix {
     border: none important;
 }
-.radio2[disabled]+label::after
-{
-border:0px !important;}
