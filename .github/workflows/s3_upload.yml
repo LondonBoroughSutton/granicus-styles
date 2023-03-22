@@ -1,0 +1,47 @@
+name: Upload to S3
+
+on:
+  push:
+    branches: [ "main", "test", "dev" ]
+
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jakejarvis/s3-sync-action@master
+        if: ${{ github.ref == 'refs/heads/dev' }}
+        name: Upload S3 Dev
+        id: s3_dev
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_S3_BUCKET: ${{ vars.S3_CSS_ROOT_DIR }}/dev
+          SOURCE_DIR: "css"
+      - uses: jakejarvis/s3-sync-action@master
+        if: ${{ github.ref == 'refs/heads/test' }}
+        name: Upload S3 Test
+        id: s3_test
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_S3_BUCKET: ${{ vars.S3_CSS_ROOT_DIR }}/test
+          SOURCE_DIR: "css"
+      - uses: jakejarvis/s3-sync-action@master
+        if: ${{ github.ref == 'refs/heads/main' }}
+        name: Upload S3 Prod
+        id: s3_prod
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          AWS_S3_BUCKET: ${{ vars.S3_CSS_ROOT_DIR }}/prod
+          SOURCE_DIR: "css"
