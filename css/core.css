@@ -150,9 +150,8 @@ a:focus {
 /*login page*/
 /*login screen button*/
 
-
 .btn-default {
-    /*color: #333 !important;*/
+    color: #fff !important;
     background-color: #fff;
     border-color: #ccc;
     padding: 5px 10px !important;
@@ -160,7 +159,6 @@ a:focus {
     font-weight: 500;
     font-size: 16px;
 }
-
 
 .form-control:focus {outline: 0.2rem solid #488EF8;}
 .form-control {
