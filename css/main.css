@@ -10125,6 +10125,16 @@ a#printButton {
   #myRequestsWidget .table .reference {
     display: none !important;
   }
+
+  .previousbutton,
+  .cancelbutton,
+  .nextbutton,
+  .savebutton,
+  .submitbutton {
+    width: 100% !important;
+    margin-top: 3px !important;
+  }
+
 }
 
 #myCarousel-outer a.btn {
