@@ -1,87 +1,98 @@
 @import url("https://assets.digital.cabinet-office.gov.uk/static/fonts-607c54f71c7c1f98257595cedaa13a34.css");
+
 table {
-	table-layout: fixed; 
-	width: 95%;
-	border-spacing: 0;
-	border-collapse: collapse;
-	margin-left: 24px;
+    table-layout: fixed;
+    width: 95%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-left: 24px;
 }
 
 img {
-	border: 0;
-	margin-bottom: 24px;
+    border: 0;
+    margin-bottom: 24px;
 }
 
 table tr td:first-child {
-font-weight: bold;
+    font-weight: bold;
 }
 
 
-
 td {
-width: 50% !important;
-height: auto;
+    width: 50% !important;
+    height: auto;
 }
 
 
 body {
-	font-family:nta, Arial, Helvetica, sans-serif;
-	margin:0;
-	font-size:17px;
-	color: #333;
-	padding: 15px;
+    font-family: nta, Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 17px;
+    color: #333;
+    padding: 15px;
 }
-a { color:#402C78; text-deoration:underline;}
-h1 { 
-	font-weight: bold; 
-	border-bottom:0; 
-	font-size: 40px; 
-	display:block;
-	margin-bottom: 0;
+
+a {
+    color: #402C78;
+    text-deoration: underline;
 }
-h2 { 
-	font-size: 20px;  
-	font-weight: bold;
-	margin: 1em 0 0.5em 0;
+
+h1 {
+    font-weight: bold;
+    border-bottom: 0;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 0;
 }
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+
 dl {
-	overflow: hidden;
-	margin-bottom: 1em;
+    overflow: hidden;
+    margin-bottom: 1em;
 }
+
 dt {
-	font-weight: bold;
-	margin: 0.75em 3% 0 0;
-	float: left;
-	width: 32%;
-	clear: both;
-	text-align: right;
+    font-weight: bold;
+    margin: 0.75em 3% 0 0;
+    float: left;
+    width: 32%;
+    clear: both;
+    text-align: right;
 }
+
 dd {
-	padding: 0;
-	margin: 0.75em 0 0 0;
-	width: 65%;
-	float: left;
+    padding: 0;
+    margin: 0.75em 0 0 0;
+    width: 65%;
+    float: left;
 }
 
 th {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
+
 th, td {
-	text-align: left;
-		padding: 0.75em 1.25em 0.5em 0 !important;
+    text-align: left;
+    padding: 0.75em 1.25em 0.5em 0 !important;
 }
+
 td {
-	vertical-align: top;
+    vertical-align: top;
 }
-.table-border th, .table-border td
-{
-	border-collapse: collapse;
-	border-bottom:1px solid #ccc;
-  	padding: 0.5em 1.25em 0.5em 0 !important;
+
+.table-border th, .table-border td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1.25em 0.5em 0 !important;
 }
-.table-header
-{
-background-color:#dbdbdb;
-font-size:18px;
-font-weight:bold;
+
+.table-header {
+    background-color: #dbdbdb;
+    font-size: 18px;
+    font-weight: bold;
 }
