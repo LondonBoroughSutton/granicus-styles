@@ -1316,6 +1316,10 @@ border:2px solid #000 !important;}
 	padding-left: 20px !important;
 }
 
+.hide-fileCount .fileCount {
+    display: none;
+}
+
 label.prefix, span.prefix {
     border: none important;
 }
