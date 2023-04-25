@@ -1326,3 +1326,15 @@ label.prefix, span.prefix {
 .radio2[disabled]+label::after
 {
 border:0px !important;}
+
+.achieveforms-container .resumable-list i.remove-upload {
+    float: left;
+    margin: 4px 10px 0 0;
+}
+
+.achieveforms-container .imagePreview {
+    display: none;
+}
+.achieveforms-container .resumable-file .resumable-file-name {
+    max-width: 70% !important;
+}
