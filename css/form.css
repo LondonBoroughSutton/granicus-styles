@@ -46,16 +46,11 @@
     padding: 10px;
     background-color: #fff;
 }
-
-.notification-banner__heading
-{
-margin-bottom:0px !important;}
-
 /*Confirmation panel*/
 
 .confirmation-panel-container {
     color: #fff;
-    background: #008f5f;
+    background: #1D6D45;
 }
 
 .confirmation-panel {
@@ -229,7 +224,7 @@ background-color: #fff !important;
     clear: left;
     position: relative;
     padding: 5px 0 0 0 !important;
-    
+
 }
     .gds-select [type=checkbox] + label::before , .gds-select [type=radio] + label::before {
     border-radius :0px;
@@ -298,7 +293,7 @@ border-radius:50%;
     zoom: 1;
     filter: alpha(opacity=100);
     opacity: 1;
-} 
+}
 
     /*Below styles replace the green color on this fields*/
 fieldset.valid .gds-select[type=checkbox]+label:before,fieldset.valid .gds-select[type=radio]+label:before {
@@ -307,7 +302,7 @@ fieldset.valid .gds-select[type=checkbox]+label:before,fieldset.valid .gds-selec
 }
 
    .gds-select[type=checkbox].checked+label:before, .gds-select[type=checkbox]:checked+label:before {
-     content: ""; 
+     content: "";
     border-color: #0c0c0c;
 }
 
@@ -319,7 +314,7 @@ fieldset.valid .gds-select[type=checkbox]+label:before,fieldset.valid .gds-selec
 }
 
  /*Check box and radio button*/
-          
+
  .gds-select[type=checkbox].checked+label:before, .gds-select[type=checkbox]:checked+label:before, .gds-select[type=radio].checked+label:before, .gds-select[type=radio]:checked+label:before {
     opacity: 1;
     max-width: 35px;
@@ -467,6 +462,11 @@ section.sectionsHead.navbar-default.render {
 /*Remove the form sections border*/
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
     border: none;
+    background-color: white !important;
+}
+
+li.sectionNameWrapper:empty {
+    display: none;
 }
 
 /*Added by Merizza on 31/12/2020*/
@@ -577,8 +577,7 @@ li.sectionNameWrapper.invalid.erroricon a::before {
 /*Adding green button to selection field*/
 input[type=checkbox]:checked+label.btn:after,
 input[type=radio]:checked+label.btn:after {
-	/*content: "\2714";*/
-	content: "";
+	content: "\2714";
 	position: absolute;
 	margin-top: -4px;
 	right: -30px;
@@ -607,6 +606,7 @@ a.form-name:visisted {
 
 span.form-link-color {
 	color: inherit;
+    font-weight: 500 !important;
 }
 
 /*Red Call-to-action button styles*/
@@ -646,7 +646,7 @@ span.form-link-color {
     text-align: center;
 	text-decoration: none !important;
 }
-    
+
 .red_button:hover {
 	color: #A0505C !important;
 	background-color: #fff;
@@ -656,11 +656,11 @@ span.form-link-color {
 .red_button:focus {
 	border: none !important;
 }
-    
+
 .red_button:active {
 	color: #A0505C;
 }
-	
+
 /* Displays white text in a blue box, used for showing text confirmatino messages on the form */
 .div-info-alert{
 	background-color: #005ea5;
@@ -751,7 +751,7 @@ span.form-link-color {
    text-decoration: none;
    transition: all 200ms ease-out;
     }
-    
+
 .leaveReview:hover {
 	cursor: pointer;
 	color: #fff;
@@ -763,13 +763,13 @@ span.form-link-color {
 /*===================MEDIA QUERIES==========================*/
 
 @media (max-width:1080px) {
-	
+
 	/*===========Download PDF, Return to Website, Leave a Review Buttons============*/
 	.reviewText {
 	  width: 100% !important;
 	  margin-bottom: 14px;
 	}
-	
+
 	.leaveReview {
 	  position: relative;
 	  width: 40%;
@@ -777,24 +777,36 @@ span.form-link-color {
 	  margin-bottom: -14px;
 	  margin-left: auto;
 	}
-	
+
 	a.save.btn.btn-af, a.finish.btn.btn-af {
 	  display: block;
 	  width: 40%;
 	  margin: 14px auto !important;
 	}
-	
+
+}
+
+
+.sectionNameWrapper {
+    width: auto !important;
+    margin: 0px 5px !important;
+    height: 47px;
+
 }
 
 @media (max-width: 767px)
 {
-.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
-    width: auto !important;
-    margin: 0px 5px !important; 
-}
 
 .col-sm-4 {
     width: 100% !important;
+}
+
+.col-xs-2 {
+    width: 40% !important;
+}
+.achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper {
+    width: auto !important;
+    margin: 0px 5px !important;
 }
 
 .sections-toggle-wrapper {display:block !important;}
@@ -816,7 +828,7 @@ li.sectionNameWrapper.active.valid a::before {
     border-radius: 50%;
 	border: 5px solid #22a473;
 }
-	
+
  section.sectionsHead.navbar-default.render {
 	padding: 0px 0px !important;
  }
@@ -826,13 +838,13 @@ li.sectionNameWrapper.active.valid a::before {
 	#page.render {
 		padding: 14px 0 !important;
 	}
-	
+
 	/*===========Cancel, Previous, Submit Buttons=============*/
-	
+
 	.fillinButtonsLeft, .fillinButtonsRight, .form-actions-list-element.submit-element, .form-actions-list-element.next-element {
 		width: 100% !important;
 	}
-	
+
 	li.form-actions-list-element.save-element {
 		width: 100% !important;
 		margin: 5px 0 !important;
@@ -846,9 +858,9 @@ li.sectionNameWrapper.active.valid a::before {
 		/*background-color: #162755 !important;*/
 		color: #fff !important;
 	}
-	
+
 	/*===========Download PDF, Return to Website, Leave a Review Buttons============*/
-	
+
 	.submission-message-btn-wrapper {
        margin-top: -24px !important;
 	}
@@ -1238,8 +1250,8 @@ padding-left:0px !important;
 /*blue panel used on few places*/
 .heading-panel
 {
-background-color: #005ea5; 
-font-size: 12pt; 
+background-color: #005ea5;
+font-size: 12pt;
 color: #ffffff;
 word-wrap: break-word;
 padding: 10px 10px;
@@ -1248,7 +1260,7 @@ text-align: left;
 
 /* red link button*/
 
- 
+
 .link-button a {
         background-color: #A0505C;
         border: 4px solid #A0505C;
@@ -1263,12 +1275,12 @@ text-align: left;
         text-decoration: none !important;
         transition: all 200ms ease=out;
     }
-    
+
 .link-button-link:hover {
         color: #A0505C !important;
         background-color: #fff;
     }
-    
+
 
 /*Map box border*/
 #mapIframe
@@ -1304,16 +1316,25 @@ border:2px solid #000 !important;}
 	padding-left: 20px !important;
 }
 
+.hide-fileCount .fileCount {
+    display: none;
+}
+
 label.prefix, span.prefix {
     border: none important;
 }
+.radio2[disabled]+label::after
+{
+border:0px !important;}
 
-.char-count {
+.achieveforms-container .resumable-list i.remove-upload {
     float: left;
-    font-size: 19px;
-    margin: 0px 0px 10px 0px;
+    margin: 4px 10px 0 0;
 }
 
-.read_only_field { 
-    font-size: 19px !important;
+.achieveforms-container .imagePreview {
+    display: none;
+}
+.achieveforms-container .resumable-file .resumable-file-name {
+    max-width: 70% !important;
 }

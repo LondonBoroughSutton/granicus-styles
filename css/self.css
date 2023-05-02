@@ -1,9 +1,9 @@
 /*==============GLOBAL-SELF UI======================================*/
 .loading
-{display:none !important;} 
+{display:none !important;}
 
 body, html {
-	overflow-x: hidden !important;
+	/*overflow-x: hidden !important;*/
 	font-family: 'Noto Sans', sans-serif !important;
 }
 
@@ -12,7 +12,7 @@ a, a:visited {
 	text-decoration: none !important;
 }
 
-/*-----Change the main contain background color-----*/ 
+/*-----Change the main contain background color-----*/
 #main-content {
 	background: #eef1e6 !important;
 	margin-bottom: 0px;
@@ -33,16 +33,16 @@ a, a:visited {
 div#header {
 	display: none !important;
 }
-	
+
 /*-------------------Hide the cancel button on registration notification message---------------*/
 .ui-pnotify-action-button.btn.btn-default.ui-pnotify-confirm-mx-1.svelte-1y9suua:nth-child(2) {
 	display: none;
-}	
+}
 
 /*=======================TOOLBAR=================================*/
-  
+
   /*-----RIGHT NAVBAR---------*/
-  
+
   .top-right-navbar {
     width: 102%;
     height: 130px;
@@ -50,27 +50,27 @@ div#header {
     top: 0;
 	margin-bottom: 14px;
   }
-	
+
   .nav>li>a {
-    position: unset !important;  
+    position: unset !important;
   }
-  
-  
+
+
   .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: #3c3c3c !important;
     color: #fff !important;
   }
-  
+
   .navbar-inverse .navbar-nav>li>a  {
 	  color: #000 !important;
   }
-  
+
   /*Updated by Merizza 04/03/2021 to fix dropdown menu styles on focus*/
   .navbar-inverse .navbar-nav>li>a:hover {
 	  color: #3c3c3c !important
 	  background-color: #fff;
   }
-  
+
   .navbar-inverse .navbar-nav>li>a:focus {
     outline: 3px solid transparent;
     color: #fff !important;
@@ -79,17 +79,17 @@ div#header {
     box-shadow: 0 -2px #1D6D45, 0 4px #0b0c0c;
     text-decoration: none !important;
   }
-  
+
   .navbar.main.navbar-static-top.navbar-inverse {
     background-color: #fff;
     height: 110px !important;
     border-bottom: 1px solid transparent;
   }
-  
+
   .navbar.main.navbar-static-top.navbar-inverse>.container {
     position: relative;
   }
-  
+
 /*=========Added by Merizza 28/01/2021===============*/
   a#toolbar_logo {
 	position: relative;
@@ -101,15 +101,15 @@ div#header {
 	background-size: cover;
   }
   /*=================================================================*/
-  
+
  /*============Added by Merizza 04/02/21 - changing focus styles of dropdown menu==============*/
- 
+
   .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: #fff !important;
     background-color: #1D6D45 !important;
 }
   /*===========================*/
-  
+
   #header_logo {
     position: absolute;
     /*left: 230px;
@@ -117,32 +117,32 @@ div#header {
     width: 95px;
     height: 111px;
   }
-  
+
   .top_main_nav {
     margin-bottom: 32px;
     display: inline-block;
     width: 50%;
     font-size: 20px;
   }
-  
+
   .toolbar_nav>li {
     display: inline-block;
     text-decoration: none;
   }
-  
+
   .toolbar_nav>li>a {
     color: #3c3c3c;
   }
-  
+
   a.dropdown-toggle {
     position: unset;
     color: #3c3c3c;
     bottom: 26px;
   }
-  
+
   a.dropdown-toggle:hover {
     color: #3c3c3c !important;
-    
+
   }
 
   ul#session-badge {
@@ -152,34 +152,34 @@ div#header {
   ul#session-badge>li {
     margin: 0;
   }
-  
+
   /*------LOGOUT MAIN CONTENT HEIGHT---------------*/
   .container.container-form {
     min-height: 250px;
   }
 
-/*--------------------MENU NAV----------------*/  
-  
+/*--------------------MENU NAV----------------*/
+
   /*#navigation>.row {
     width: 75%;
     margin: 0 auto;
 	margin-left: -12px;
   }*/
-  
+
   #navigation.container {
 	width: 100% !important;
 	margin-top: 60px;
   }
-  
+
   /*=====Fix focus styles on active menu===========*/
-  
+
   .btn:active, .btn.active {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
-  
+
   /*======*/
-  
+
   a.btn.btn-lg.btn-primary.top {
     height: auto !important;
     font-size: 12px;
@@ -191,15 +191,15 @@ div#header {
     padding: 0 12px !important;
     margin-right: 1px;
   }
-  
+
   a.btn.btn-lg.btn-primary.top:first-child {
 	  /*padding: 1px !important;*/
   }
-  
+
   a.btn.btn-lg.btn-primary.top:hover {
 	color: #2b8cc4 !important;
   }
-  
+
   a.btn.btn-lg.btn-primary.top:before {
     content: '\00a0';
     margin-top: -2px;
@@ -209,7 +209,7 @@ div#header {
     height: 30px;
     background: #eef1e6;
 }
-  
+
   a.btn.btn-lg.btn-primary.top:after {
     content: '\00a0';
     margin-top: -2px;
@@ -219,7 +219,7 @@ div#header {
     height: 30px;
     background: #eef1e6;
 }
-  
+
   /*Adding by Merizza 29/01/21 to fix the focus styles issue*/
   a.btn.btn-lg.btn-primary.top:focus {
    /* outline: 3px solid transparent;*/
@@ -230,13 +230,13 @@ div#header {
     text-decoration: none !important;
   }
 
-  
+
   a.btn.btn-lg.btn-primary.top:last-child {
     border-right: none !important;
   }
-  
+
   /*Commented out by Merizza to remove home icon - 29/01/2021*/
-  
+
   /*a.btn.btn-lg.btn-primary.top:first-child::before {
     content: "TEST";
     color: transparent;
@@ -245,25 +245,25 @@ div#header {
     background-image: url(data:image/svg+xml;charset%3DUS-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2019%2015%22%20width%3D%2219%22%20height%3D%2215%22%20preserveAspectRatio%3D%22xMinYMid%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cpath%20fill%3D%22%23EBB13E%22%20d%3D%22M15.8%2C15h-4.5c-0.3%2C0-0.5-0.2-0.5-0.5v-4H8v4C8%2C14.8%2C7.8%2C15%2C7.5%2C15H3c-0.3%2C0-0.5-0.2-0.5-0.5v-6%20C2.5%2C8.2%2C2.8%2C8%2C3%2C8s0.5%2C0.2%2C0.5%2C0.5V14H7v-4c0-0.3%2C0.2-0.5%2C0.5-0.5h3.7c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5v4h3.5V8.1c0-0.3%2C0.2-0.5%2C0.5-0.5%20c0.3%2C0%2C0.5%2C0.2%2C0.5%2C0.5v6.4C16.3%2C14.8%2C16%2C15%2C15.8%2C15z%20M18.7%2C8.1c0.2-0.2%2C0.1-0.5-0.1-0.7L9.7%2C0.1C9.5%2C0%2C9.3%2C0%2C9.1%2C0.1L0.2%2C7.4%20C0%2C7.6-0.1%2C7.9%2C0.1%2C8.1c0.2%2C0.2%2C0.5%2C0.2%2C0.7%2C0.1l8.6-7.1L18%2C8.2c0.1%2C0.1%2C0.2%2C0.1%2C0.3%2C0.1C18.5%2C8.3%2C18.6%2C8.3%2C18.7%2C8.1z%20M4.2%2C4V2.3%20h1.7c0.3%2C0%2C0.5-0.2%2C0.5-0.5S6.2%2C1.3%2C5.9%2C1.3H3.7c-0.3%2C0-0.5%2C0.2-0.5%2C0.5V4c0%2C0.3%2C0.2%2C0.5%2C0.5%2C0.5S4.2%2C4.3%2C4.2%2C4z%22%2F%3E%3C%2Fsvg%3E);
     background-repeat: no-repeat;
   }*/
-  
+
   a.btn.btn-lg.btn-primary.top.active {
     font-weight: bold;
    /* -webkit-box-shadow: none !important;
   	-moz-box-shadow: none !important;
   	box-shadow: none !important;*/
   }
-  
+
   /*a.btn.btn-lg.btn-primary.top:active {
 	-webkit-box-shadow: none !important;
   	-moz-box-shadow: none !important;
-  	box-shadow: none !important;  
+  	box-shadow: none !important;
   }*/
-  
+
   a.btn.btn-lg.btn-primary.top>.caret {
     display: none !important;
   }
-  
-  
+
+
   #registerLink, #loginLink {
 	display: none;
     color: #A0505C !important;
@@ -271,23 +271,23 @@ div#header {
     border-radius: 25px;
 	transition: all 300ms fade-in;
   }
-  
+
   #loginLink {
     margin-left: 10px;
   }
-  
+
   #registerLink:hover, #loginLink:hover {
     color: #A0505C !important;
     background: #fff;
     border: 2px solid #A0505C;
   }
-  
+
   #inner_warning_text>a {
     font-size: 12px !important;
     color: #fff;
     text-decoration: none;
   }
-  
+
   #inner_warning_text>a:hover {
     background-color: #fff;
     color: #1D6D45;
@@ -300,20 +300,20 @@ div#header {
     background-color: #eef1e6;
     height: auto;
   }
-  
+
   #anon_container>h1, #anon_container>p {
     text-align: center;
     padding: 12px;
   }
-  
+
   #anon_container>h1 {
     font-size: 30px;
   }
-  
+
   #anon_container>p {
     font-size: 16px;
   }
-  
+
   .row.anonWrapper {
     width: 90%;
     min-height: 300px;
@@ -321,7 +321,7 @@ div#header {
     position: relative;
     padding-bottom: 14px;
   }
-  
+
   .row.anonWrapper:before {
     content: "";
     position:absolute;
@@ -332,31 +332,31 @@ div#header {
     background: rgba(255,255,255,0.7);
     border-radius: 25px;
     z-index: 0;
-    
+
   }
-  
+
   .firstCol, .secondCol {
     height: auto;
   }
-  
+
   ul.registerList>li {
     list-style: none;
     margin-bottom: 10px !important;
   }
-  
+
   ul.registerList>li::before {
-    content: "\2713";  
-    color: #fdb945; 
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1.3em; 
+    content: "\2713";
+    color: #fdb945;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.3em;
     margin-left: -1em;
   }
-  
+
   .firstCol {
 	  top: 24px;
   }
-  
+
   .secondCol {
     width: 45%;
     min-height: 250px;
@@ -367,14 +367,14 @@ div#header {
     text-align: center;
     border-left: 3px solid #fdb945;
   }
-  
+
   p.lead {
     width: 100%;
     font-size: 19px;
     font-weight: bold;
    /* margin: 24px;*/
   }
-  
+
   .registerButton {
     color: #fff !important;
     background-color: #A0505C;
@@ -382,11 +382,11 @@ div#header {
     border: none;
     padding: 10px 20px 10px !important;
   }
-  
+
   .registerButton:focus {
 	background-color: #1D6D45 !important;
   }
-  
+
   .registerButton:hover {
     background-color: #fff !important;
     color: #A0505C !important;
@@ -394,18 +394,18 @@ div#header {
 	-webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
-  
+
    .registerButton:active {
 	background-color: #fff !important;
 	-webkit-box-shadow: none !important;
     box-shadow: none !important;
    }
-  
+
   .secondCol>p {
     margin: 24px;
     font-weight: bold;
   }
-  
+
 /*==============================HOMEPAGE_AUTH(LANDING_PAGE)================================*/
 
  #homepageContent {
@@ -415,7 +415,7 @@ div#header {
     background-color: #eef1e6;
     font-size: 16px;
   }
-  
+
   .inner_text {
     text-align: center;
   }
@@ -425,14 +425,14 @@ div#header {
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  
+
   .inner_text_link {
     color: #1D6D45;
     text-decoration: underline;
     font-weight: bold;
   }
-  
-  
+
+
 /*==============================MAIN FOOTER================================*/
 
 .container.container-footer {
@@ -452,7 +452,7 @@ div#header {
 	/*#footer>div.councilLogo {
 		text-align: center !important;
 	}*/
-	
+
 	#footer_logo {
 	display: block;
     margin: 0 auto;
@@ -461,7 +461,7 @@ div#header {
 text-align:center;
 /*width:50% !important;*/
 	}
-	
+
 	.RBKLogo {
 		width: 128px;
 		height: 149px;
@@ -477,29 +477,29 @@ text-align:center;
     width: auto;
     text-align: center;
   }
-  
+
   ul.usefulLinks {
     padding-left: 0;
     list-style: none;
   }
-  
+
   .usefulLinks li {
     display: inline-block;
     font-size: 19px;
     line-height: 1em;
     margin: 1em;
   }
-  
+
   .usefulLinks>li:first-child {
     margin-left: -40px;
   }
-  
+
   .usefulLinks li a {
     color: #fff;
   }
-  
+
 /*---------------SOCIAL MEDIA ICONS---------------*/
-  
+
   .socialMedia_nav {
     margin: 0 auto;
     padding: 0;
@@ -507,7 +507,7 @@ text-align:center;
     width: auto;
     text-align: center;
   }
-  
+
   .socialMedia_icons li {
     display: inline-block;
     list-style: none;
@@ -516,11 +516,11 @@ text-align:center;
     background-color: #fff;
     margin: 15px;
   }
-  
+
   .socialMedia_icons {
 	  padding: 0px;
   }
-  
+
   .socialMedia_icons li a{
     color: #3c3c3c;
     display: table-cell;
@@ -529,21 +529,21 @@ text-align:center;
     width: 30px;
     height: 30px;
   }
-  
+
   .socialMedia_icons li:hover {
     background-color: #1D6D45;
     transition: all 300ms ease-in-out;
   }
-  
+
   .socialMedia_icons li a:hover{
     color: #fff;
   }
-  
+
   .copyrightText {
     width: 100%;
     text-align: center;
   }
-  
+
   /*=======================REGISTRATION PROCESS===============*/
 
   #btn-register {
@@ -556,17 +556,17 @@ text-align:center;
     left: 50%;
     transform: translateX(-120%);
   }
-  
+
   #anonymousLoginScreen>a {
     width: 20%;
   }
-  
+
   #anonymousLoginScreen .btn-custom {
 	 color: #005ea5 !important;
 	 border: none !important;
 	 text-decoration: underline !important;
   }
-  
+
   #anonymousLoginScreen .btn-custom:hover {
     background: inherit;
     border: none;
@@ -576,7 +576,7 @@ text-align:center;
     color: #2b8cc4 !important;
 	text-decoration: underline !important;
   }
-  
+
   #anonymousLoginScreen>#btn-login {
     border-radius: 25px;
     padding: 10px 20px 10px;
@@ -590,7 +590,7 @@ text-align:center;
     transform: translateX(120%);
     margin-top: 0;
   }
-  
+
   #btn-register:hover, #anonymousLoginScreen>#btn-login:hover {
     border-radius: 25px;
     padding: 10px 20px 10px;
@@ -599,7 +599,7 @@ text-align:center;
     background-color: #fff !important;
     box-shadow: none;
   }
-  
+
 #anonymousLoginScreen>h1 {
  text-align: center;
  font-size: 30px;
@@ -741,55 +741,55 @@ width: 100%;
 }
 
 @media screen and (max-width: 525px) {
-  
+
   #coverBox {
     height: 290px;
   }
-  
+
   .landing_page_container {
     padding: 2rem;
-  }  
-  
+  }
+
   #anonymousLoginScreen>h1 {
     font-size: 35px;
   }
-  
+
   #anonymousLoginScreen>a {
     width: 100% !important;
   }
-  
+
   #first_column {
     border-right: none;
   }
-  
+
   .landing_page_content {
     padding: 0;
   }
-  
+
   .landing_page_content>li {
     margin: 9px;
   }
-  
+
   .landing_page_content>li>h3 {
     text-align: center;
     font-size: 21px;
   }
-  
+
   #first_column, #second_column {
     width: 100%;
   }
-  
+
   #registerIcon_container {
     display: none;
   }
-  
+
   #btn-register {
     position: relative !important;
     left: auto;
     transform: none;
     display: block;
   }
-  
+
   #btn-login {
     position:  relative !important;
     margin-top: 30px !important;
@@ -798,11 +798,11 @@ width: 100%;
     right: auto !important;
     transform: none !important;
   }
- 
+
 }
-  
+
 /*======================MEDIA QUERIES=====================*/
-  
+
   @media (max-width: 992px) {
   .rightNav {
     display: none;
@@ -827,7 +827,7 @@ width: 100%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
- 
+
   .mobileNav {
     display: block;
     width: 100%;
@@ -851,7 +851,7 @@ width: 100%;
 		padding-left: 18px;
   		margin-top: 25px;
     }
-	
+
 	.environment-banner>div {
 		max-width: 720px !important;
 	}
@@ -865,26 +865,26 @@ width: 100%;
 
 
 @media (min-width: 992px) {
-	
+
 	#navigation.container {
 		width: 970px !important;
 		padding-left: 18px;
 	}
-  
+
 	.environment-banner>div {
 		max-width: 940px !important;
 	}
-	
+
 }
 
 @media (min-width: 1200px) {
-	
+
 	#navigation.container {
 		width: 1170px !important;
 		background: #eef1e6;
 margin-top:3px;
     }
-  
+
 	.environment-banner>div {
 		max-width: 1170px !important;
 		padding-left: 18px;
@@ -892,58 +892,58 @@ margin-top:3px;
 }
 
 @media (max-width: 768px) {
-	
+
 	.navbar-session {
 		position: relative !important;
 		margin-top: 115px !important;
 		width: 92%;
 		margin: auto;
 	}
-	
+
 	ul#session-badge {
 		margin: 0px auto !important;
 		float:left;
     width: 100%;
 	}
-	
+
 	ul#session-badge>li {
 		margin: 0px auto !important;
 		text-align: center;
 		background-color: #fff !important;
 	}
-	
+
 	ul#session-badge>li:hover {
 		color: #3c3c3c #!important;
 	}
-	
+
 	a#loginLink, a#registerLink {
 		width: 70%;
 		display: none;
 		margin: 0 auto !important;
 	}
-	
+
 	#header_logo {
 		width: 6.9375rem !important;
 		left: 50%;
 		transform: translateX(-50%);
 		top: 10px !important;
 	}
-	
+
 	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
      color: #000;
     }
-	
+
 	.navbar-nav .open .dropdown-menu {
 		float: left !important;
 		width: 100% !important;
 		background-color: inherit;
     }
-	
+
 	.environment-banner>div {
 		max-width: 710px !important;
 		padding-left: 18px;
 	}
-	
+
 	.firstCol {
 		width: 100%;
 	}
@@ -956,24 +956,24 @@ margin-top:3px;
 	  transform: none;
 	  border-left: none;
 	}
-	
+
 	button#navDropdownToggle {
 		display: none;
 	}
-	
+
 	div.collapse.navbar-collapse#navbar-collapse {
 		display: block;
 		color: #3c3c3c;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav {
 		margin-top: 0px;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav>li>a {
 		color: #3c3c3c;
 	}
-	
+
 	div#navbar-collapse>ul.nav.navbar-nav>li>a:focus {
 		/*font-weight: bold;*/
 		outline: 3px solid transparent;
@@ -982,22 +982,22 @@ margin-top:3px;
 		-webkit-box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
 		box-shadow: 0 -2px #1D6D45, 0 4px #0b0c0c;
 		text-decoration: none !important
-		
+
 	}
-	
+
 	#navigation>.container, #navigation>.row {
 		width: 100%;
 		margin: 0 auto !important;
 	}
-	
+
 }
 
 @media (max-width: 525px) {
-	
+
    .navbar.main.navbar-static-top.navbar-inverse {
     height:auto;
    }
-  
+
   .warningText > p {
     width: 85%;
     font-size: 12px;
@@ -1017,8 +1017,8 @@ margin-top:3px;
     font-size: 20px;
     font-weight: bold;
   }
-  
-  
+
+
   ul.usefulLinks {
       padding-left: 0;
   }
@@ -1028,7 +1028,7 @@ margin-top:3px;
   .usefulLinks>li {
 	  display: block;
   }
-  
+
   .navbar-session {
     position: relative !important;
     margin-top: 115px !important;
@@ -1042,11 +1042,11 @@ margin-top:3px;
 	  top: 5px !important;
 	  width: 6.9375rem !important;
   }
-  
+
   #anon_container>h1 {
 	  font-size: 20px;
   }
-  
+
   #anon_container>p {
 	  font-size: 14px;
   }
@@ -1118,7 +1118,7 @@ margin-top:60px !important;
     border-bottom-right-radius: 0;
 }
 .navbar-inverse {
-     
+
 	background-color: #008f5f !important;
     border-color: #008f5f;
     height: 125px;
@@ -1131,7 +1131,7 @@ margin-top:60px !important;
   width: 465px;
     position:relative;
   top:0px;
-	
+
 }
 .btn-primary {
     background-color: #00a06a;
