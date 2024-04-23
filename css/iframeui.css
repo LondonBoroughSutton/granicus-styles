@@ -24,7 +24,6 @@ menu,
 nav,
 section,
 summary {
-    display: block;
 }
 
 audio,
@@ -12809,7 +12808,7 @@ body._AF article, body._AF footer, body._AF form, body._AF header, body._AF inpu
 /*===========Top border green===================*/
 div#page-container {
     background-color: #fff;
-    border-top: 4px solid #02836d;
+    border-top: unset !important;
     margin: 0 0 1.5rem;
 }
 
@@ -13781,4 +13780,15 @@ label.prefix, span.prefix {
 
 .achieveforms-container .resumable-file .resumable-file-name {
     max-width: 70% !important;
+}
+
+.govuk-details__summary {
+    cursor: pointer;
+}
+
+.govuk-details__summary:focus .govuk-details__summary-text{
+    background-color: #fd0;
+    outline: 3px solid rgba(0,0,0,0);
+    box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration: none;
 }
