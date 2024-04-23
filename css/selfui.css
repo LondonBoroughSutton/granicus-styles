@@ -3,6 +3,10 @@
     display: none !important;
 }
 
+body {
+    background: white !important;
+}
+
 body, html {
     /*overflow-x: hidden !important;*/
     font-family: 'Noto Sans', sans-serif !important;
@@ -15,7 +19,7 @@ a, a:visited {
 
 /*-----Change the main contain background color-----*/
 #main-content {
-    background: #eef1e6 !important;
+    background: white !important;
     margin-bottom: 0px;
 }
 
@@ -83,8 +87,9 @@ div#header {
 
 .navbar.main.navbar-static-top.navbar-inverse {
     background-color: #fff;
-    height: 110px !important;
+    height: 66px !important;
     border-bottom: 1px solid transparent;
+    border-bottom: 4px solid #02836d
 }
 
 .navbar.main.navbar-static-top.navbar-inverse > .container {
@@ -95,11 +100,16 @@ div#header {
 a#toolbar_logo {
     position: relative;
     display: block;
-    width: 320px;
-    height: 110px;
-    background-image: url("https://fs-filestore-eu.s3.amazonaws.com/rbkingston/Branding/sutton-logo-test.PNG") !important;
+    width: 137px;
+    height: 50px;
+    background-image: url("https://fs-filestore-eu.s3.amazonaws.com/rbkingston/Branding/sutton-logo-after-20240501.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 8px;
+}
+
+div#toolbar {
+    height: unset !important;
 }
 
 /*=================================================================*/
@@ -172,7 +182,6 @@ ul#session-badge > li {
 
 #navigation.container {
     width: 100% !important;
-    margin-top: 60px;
 }
 
 /*=====Fix focus styles on active menu===========*/
@@ -211,7 +220,7 @@ a.btn.btn-lg.btn-primary.top:before {
     position: absolute;
     width: 2px;
     height: 30px;
-    background: #eef1e6;
+    background: white;
 }
 
 a.btn.btn-lg.btn-primary.top:after {
@@ -221,7 +230,7 @@ a.btn.btn-lg.btn-primary.top:after {
     position: absolute;
     width: 2px;
     height: 30px;
-    background: #eef1e6;
+    background: white;
 }
 
 /*Adding by Merizza 29/01/21 to fix the focus styles issue*/
@@ -301,7 +310,7 @@ a.btn.btn-lg.btn-primary.top > .caret {
 
 #anon_container {
     padding-bottom: 42px;
-    background-color: #eef1e6;
+    background-color: white;
     height: auto;
 }
 
@@ -416,7 +425,7 @@ p.lead {
     margin: 0 -15px;
     padding: 2rem;
     height: auto;
-    background-color: #eef1e6;
+    background-color: white;
     font-size: 16px;
 }
 
@@ -738,7 +747,7 @@ ul.registerList > li::before {
 
     width: 100%;
     height: 200px;
-    background-color: #eef1e6;
+    background-color: white;
     position: absolute;
     z-index: 100;
     bottom: 0;
@@ -858,7 +867,6 @@ ul.registerList > li::before {
     #navigation.container {
         width: 750px !important;
         padding-left: 18px;
-        margin-top: 25px;
     }
 
     .environment-banner > div {
@@ -890,8 +898,7 @@ ul.registerList > li::before {
 
     #navigation.container {
         width: 1170px !important;
-        background: #eef1e6;
-        margin-top: 3px;
+        background: white;
     }
 
     .environment-banner > div {
@@ -1141,8 +1148,8 @@ ul.registerList > li::before {
 
 .navbar-inverse {
 
-    background-color: #008f5f !important;
-    border-color: #008f5f;
+    background-color: white !important;
+    border-color: white;
     height: 125px;
     background-repeat: no-repeat;
     ! background-size: 100% 100%;
