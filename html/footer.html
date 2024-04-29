@@ -1,4 +1,4 @@
-<iframe id="iframe-footer" style="border: 0; width: 100%"  scrolling="no" onload="resizeIframe(this)">
+<iframe id="iframe-footer" style="border: 0; width: 100%; overflow: hidden"  scrolling="no" onload="resizeIframe(this)">
 </iframe>
 <script>
     const src = `
@@ -192,7 +192,11 @@
         </html>
     `;
     function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        if(window.innerWidth >= 1100) {
+            obj.style.height = '390px';
+        } else {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
     }
 
     const iframeFooter = document.getElementById('iframe-footer');
