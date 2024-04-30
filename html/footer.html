@@ -5,6 +5,7 @@
         <html lang="en">
             <head>
                 <meta charset="utf-8"/>
+                <base target="_parent">
                 <link rel="stylesheet" href="https://fs-filestore-eu.s3-eu-west-1.amazonaws.com/lbsutton/Branding/css/dev/granicus.min.css"/>
             </head>
             <body>
@@ -31,7 +32,7 @@
                                             </div>
                                             020 8770 5000</a></li>
                                     <li>
-                                        <a href="/-/contact-us">
+                                        <a href="https://www.sutton.gov.uk/w/contact-us">
                                             <div class="lbs-footer__icon">
                                                 <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
@@ -69,7 +70,7 @@
                             </div>
                             <div class="govuk-grid-column-one-third-from-desktop">
                                 <h2>
-                                    <a href="/">
+                                    <a href="https://www.sutton.gov.uk">
                                         <img src="https://fs-filestore-eu.s3.amazonaws.com/rbkingston/Branding/SuttonSceneLogo.svg"
                                              alt="Sutton Scene">
                                     </a>
@@ -192,10 +193,17 @@
         </html>
     `;
     function resizeIframe(obj) {
-        if(window.innerWidth >= 1100) {
-            obj.style.height = '390px';
+        const width = window.innerWidth;
+        if(width >= 1100) {
+            obj.style.height = '440px';
+        } else if(width >= 790 && width < 1100){
+            obj.style.height = '515px';
+        } else if(width >= 670 && width < 790){
+            obj.style.height = '887px';
+        } else if(width < 670){
+            obj.style.height = '818px';
         } else {
-            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+            obj.style.height = (obj.contentWindow.document.documentElement.scrollHeight + 50) + 'px';
         }
     }
 
