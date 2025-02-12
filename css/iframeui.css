@@ -12626,7 +12626,8 @@ fieldset.valid input[type=checkbox] + label:before {
 }
 
 fieldset.valid input[type=radio] + label:before {
-    border: 2px solid #000 !important;
+    border-color: #060 !important;
+    border: 0px !important;
 }
 
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus + label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus + label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus + label:before, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus + label:before {
@@ -12659,7 +12660,7 @@ fieldset.valid input[type=radio] + label:before {
 
 }
 
-.gds-select [type=checkbox] + label::before {
+.gds-select [type=checkbox] + label::before, .gds-select [type=radio] + label::before {
     border-radius: 0px;
     content: "";
     border: 2px solid #000 !important;
@@ -12673,10 +12674,11 @@ fieldset.valid input[type=radio] + label:before {
 
 .gds-select [type=radio] + label::before {
     content: "";
-    border: 2px solid #000 !important;
+    border: 2px solid #000;
     background: transparent;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
+    /* position: absolute;*/
     top: 5px;
     left: 0;
     border-radius: 50%;
@@ -12702,6 +12704,26 @@ fieldset.valid input[type=radio] + label:before {
     zoom: 1;
     filter: alpha(opacity=0);
     opacity: 0;
+}
+
+.gds-select [type=radio] + label::after {
+    content: "";
+    border: 10px solid #000;
+    background: #fff !important;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    zoom: 1;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    border-radius: 50%;
 }
 
 .gds-select:checked + label::after {
