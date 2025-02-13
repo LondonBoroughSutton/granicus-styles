@@ -12049,6 +12049,10 @@ body {
     line-height: 2.3125em !important;
 }
 
+.field .fieldContent .fieldInput.hasCurrencyPrefix {
+    padding-left: 24px !important;
+}
+
 /** end prefix fix**/
 
 /** change made on 22/02/2019 by Josh Trevallion to hide the section tabs on the initial stage of the Housing Register Application process and Housing Register Change of Circumstance process**/
