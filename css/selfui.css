@@ -23,7 +23,7 @@ a, a:visited {
     margin-bottom: 0px;
 }
 
-#app-content > h1#hello-title {
+#app-content>h1#hello-title {
     text-align: center !important;
     font-size: 4rem !important;
 }
@@ -56,27 +56,27 @@ div#header {
     margin-bottom: 14px;
 }
 
-.nav > li > a {
+.nav>li>a {
     position: unset !important;
 }
 
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: #3c3c3c !important;
     color: #fff !important;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav>li>a {
     color: #000 !important;
 }
 
 /*Updated by Merizza 04/03/2021 to fix dropdown menu styles on focus*/
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #3c3c3c !important
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #3c3c3c !important;
     background-color: #fff;
 }
 
-.navbar-inverse .navbar-nav > li > a:focus {
+.navbar-inverse .navbar-nav>li>a:focus {
     outline: 3px solid transparent;
     color: #fff !important;
     background-color: #1D6D45;
@@ -92,7 +92,7 @@ div#header {
     border-bottom: 4px solid #02836d
 }
 
-.navbar.main.navbar-static-top.navbar-inverse > .container {
+.navbar.main.navbar-static-top.navbar-inverse>.container {
     position: relative;
 }
 
@@ -116,7 +116,7 @@ div#toolbar {
 
 /*============Added by Merizza 04/02/21 - changing focus styles of dropdown menu==============*/
 
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: #fff !important;
     background-color: #1D6D45 !important;
 }
@@ -138,12 +138,12 @@ div#toolbar {
     font-size: 20px;
 }
 
-.toolbar_nav > li {
+.toolbar_nav>li {
     display: inline-block;
     text-decoration: none;
 }
 
-.toolbar_nav > li > a {
+.toolbar_nav>li>a {
     color: #3c3c3c;
 }
 
@@ -163,7 +163,7 @@ ul#session-badge {
     margin-right: 15.5%;
 }
 
-ul#session-badge > li {
+ul#session-badge>li {
     margin: 0;
 }
 
@@ -272,7 +272,7 @@ a.btn.btn-lg.btn-primary.top.active {
     box-shadow: none !important;
 }*/
 
-a.btn.btn-lg.btn-primary.top > .caret {
+a.btn.btn-lg.btn-primary.top>.caret {
     display: none !important;
 }
 
@@ -295,13 +295,13 @@ a.btn.btn-lg.btn-primary.top > .caret {
     border: 2px solid #A0505C;
 }
 
-#inner_warning_text > a {
+#inner_warning_text>a {
     font-size: 12px !important;
     color: #fff;
     text-decoration: none;
 }
 
-#inner_warning_text > a:hover {
+#inner_warning_text>a:hover {
     background-color: #fff;
     color: #1D6D45;
 }
@@ -314,16 +314,16 @@ a.btn.btn-lg.btn-primary.top > .caret {
     height: auto;
 }
 
-#anon_container > h1, #anon_container > p {
+#anon_container>h1, #anon_container>p {
     text-align: center;
     padding: 12px;
 }
 
-#anon_container > h1 {
+#anon_container>h1 {
     font-size: 30px;
 }
 
-#anon_container > p {
+#anon_container>p {
     font-size: 16px;
 }
 
@@ -352,12 +352,12 @@ a.btn.btn-lg.btn-primary.top > .caret {
     height: auto;
 }
 
-ul.registerList > li {
+ul.registerList>li {
     list-style: none;
     margin-bottom: 10px !important;
 }
 
-ul.registerList > li::before {
+ul.registerList>li::before {
     content: "\2713";
     color: #fdb945;
     font-weight: bold;
@@ -414,7 +414,7 @@ p.lead {
     box-shadow: none !important;
 }
 
-.secondCol > p {
+.secondCol>p {
     margin: 24px;
     font-weight: bold;
 }
@@ -433,7 +433,7 @@ p.lead {
     text-align: center;
 }
 
-.inner_text > h2 {
+.inner_text>h2 {
     margin-top: 0;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -503,7 +503,7 @@ ul.usefulLinks {
     margin: 1em;
 }
 
-.usefulLinks > li:first-child {
+.usefulLinks>li:first-child {
     margin-left: -40px;
 }
 
@@ -570,7 +570,7 @@ ul.usefulLinks {
     transform: translateX(-120%);
 }
 
-#anonymousLoginScreen > a {
+#anonymousLoginScreen>a {
     width: 20%;
 }
 
@@ -590,7 +590,7 @@ ul.usefulLinks {
     text-decoration: underline !important;
 }
 
-#anonymousLoginScreen > #btn-login {
+#anonymousLoginScreen>#btn-login {
     border-radius: 25px;
     padding: 10px 20px 10px;
     border: none;
@@ -604,7 +604,7 @@ ul.usefulLinks {
     margin-top: 0;
 }
 
-#btn-register:hover, #anonymousLoginScreen > #btn-login:hover {
+#btn-register:hover, #anonymousLoginScreen>#btn-login:hover {
     border-radius: 25px;
     padding: 10px 20px 10px;
     border: 2px solid #A0505C;
@@ -613,14 +613,14 @@ ul.usefulLinks {
     box-shadow: none;
 }
 
-#anonymousLoginScreen > h1 {
+#anonymousLoginScreen>h1 {
     text-align: center;
     font-size: 30px;
     margin-top: -50px;
     margin-bottom: 80px;
 }
 
-#anonymousLoginScreen > p.registration-text {
+#anonymousLoginScreen>p.registration-text {
     margin-top: -35px !important;
 }
 
@@ -638,21 +638,21 @@ ul.usefulLinks {
     padding: 0;
 }
 
-.landing_page_content > li {
+.landing_page_content>li {
     list-style: none;
     margin: 20px 23px;
     padding: 0 15px !important;
     font-size: 14px;
 }
 
-.landing_page_content > li > h3 {
+.landing_page_content>li>h3 {
     margin-top: 17px;
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: bold;
 }
 
-.landing_page_content > li > p {
+.landing_page_content>li>p {
     text-align: justify;
 }
 
@@ -666,11 +666,11 @@ ul.usefulLinks {
     border-right: 3px solid #fdb945;
 }
 
-#first_column > .landing_page_content > li {
+#first_column>.landing_page_content>li {
     margin-right: 35px;
 }
 
-#second_column > .landing_page_content > li {
+#second_column>.landing_page_content>li {
     margin-left: 35px;
 }
 
@@ -683,12 +683,12 @@ ul.registerList {
     margin-left: -10px;
 }
 
-ul.registerList > li {
+ul.registerList>li {
     list-style: none;
     text-align: justify;
 }
 
-ul.registerList > li::before {
+ul.registerList>li::before {
     content: "\2713";
     color: #fdb945;
     font-weight: bold;
@@ -722,7 +722,7 @@ ul.registerList > li::before {
     margin: 0 auto;
 }
 
-#anonReturnToMain > a {
+#anonReturnToMain>a {
     color: #fff;
     background: #A0505C;
     padding: 10px 20px 10px;
@@ -730,7 +730,7 @@ ul.registerList > li::before {
 
 }
 
-#anonReturnToMain > a:hover {
+#anonReturnToMain>a:hover {
     color: #A0505C;
     background: #fff;
     border: 3px solid #A0505C;
@@ -763,11 +763,11 @@ ul.registerList > li::before {
         padding: 2rem;
     }
 
-    #anonymousLoginScreen > h1 {
+    #anonymousLoginScreen>h1 {
         font-size: 35px;
     }
 
-    #anonymousLoginScreen > a {
+    #anonymousLoginScreen>a {
         width: 100% !important;
     }
 
@@ -779,11 +779,11 @@ ul.registerList > li::before {
         padding: 0;
     }
 
-    .landing_page_content > li {
+    .landing_page_content>li {
         margin: 9px;
     }
 
-    .landing_page_content > li > h3 {
+    .landing_page_content>li>h3 {
         text-align: center;
         font-size: 21px;
     }
@@ -826,7 +826,6 @@ ul.registerList > li::before {
     }
 
     .main-grid {
-        -ms-grid-columns: (1fr) [ 2 ] !important;
         grid-template-columns: repeat(2, 1fr) !important;
         grid-auto-rows: 120px !important;
     }
@@ -850,7 +849,7 @@ ul.registerList > li::before {
         width: 100%;
     }
 
-    .mobileNav > a {
+    .mobileNav>a {
         width: 80%;
         margin: 5px auto;
         display: block;
@@ -869,7 +868,7 @@ ul.registerList > li::before {
         padding-left: 18px;
     }
 
-    .environment-banner > div {
+    .environment-banner>div {
         max-width: 720px !important;
     }
 
@@ -888,7 +887,7 @@ ul.registerList > li::before {
         padding-left: 18px;
     }
 
-    .environment-banner > div {
+    .environment-banner>div {
         max-width: 940px !important;
     }
 
@@ -901,7 +900,7 @@ ul.registerList > li::before {
         background: white;
     }
 
-    .environment-banner > div {
+    .environment-banner>div {
         max-width: 1170px !important;
         padding-left: 18px;
     }
@@ -922,14 +921,14 @@ ul.registerList > li::before {
         width: 100%;
     }
 
-    ul#session-badge > li {
+    ul#session-badge>li {
         margin: 0px auto !important;
         text-align: center;
         background-color: #fff !important;
     }
 
-    ul#session-badge > li:hover {
-        color: #3c3c3c # !important;
+    ul#session-badge>li:hover {
+        color: #3c3c3c !important;
     }
 
     a#loginLink, a#registerLink {
@@ -945,7 +944,7 @@ ul.registerList > li::before {
         top: 10px !important;
     }
 
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
         color: #000;
     }
 
@@ -955,7 +954,7 @@ ul.registerList > li::before {
         background-color: inherit;
     }
 
-    .environment-banner > div {
+    .environment-banner>div {
         max-width: 710px !important;
         padding-left: 18px;
     }
@@ -982,15 +981,15 @@ ul.registerList > li::before {
         color: #3c3c3c;
     }
 
-    div#navbar-collapse > ul.nav.navbar-nav {
+    div#navbar-collapse>ul.nav.navbar-nav {
         margin-top: 0px;
     }
 
-    div#navbar-collapse > ul.nav.navbar-nav > li > a {
+    div#navbar-collapse>ul.nav.navbar-nav>li>a {
         color: #3c3c3c;
     }
 
-    div#navbar-collapse > ul.nav.navbar-nav > li > a:focus {
+    div#navbar-collapse>ul.nav.navbar-nav>li>a:focus {
         /*font-weight: bold;*/
         outline: 3px solid transparent;
         color: #fff !important;
@@ -998,10 +997,9 @@ ul.registerList > li::before {
         -webkit-box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
         box-shadow: 0 -2px #1D6D45, 0 4px #0b0c0c;
         text-decoration: none !important
-
     }
 
-    #navigation > .container, #navigation > .row {
+    #navigation>.container, #navigation>.row {
         width: 100%;
         margin: 0 auto !important;
     }
@@ -1014,12 +1012,12 @@ ul.registerList > li::before {
         height: auto;
     }
 
-    .warningText > p {
+    .warningText>p {
         width: 85%;
         font-size: 12px;
     }
 
-    .warningText > a {
+    .warningText>a {
         font-size: 12px;
     }
 
@@ -1030,7 +1028,7 @@ ul.registerList > li::before {
         margin: 0 auto;
     }
 
-    .inner_text > h2 {
+    .inner_text>h2 {
         margin-bottom: 10px;
         text-align: center;
         font-size: 20px;
@@ -1042,11 +1040,11 @@ ul.registerList > li::before {
         padding-left: 0;
     }
 
-    .usefulLinks > li:first-child {
+    .usefulLinks>li:first-child {
         margin-left: 14px;
     }
 
-    .usefulLinks > li {
+    .usefulLinks>li {
         display: block;
     }
 
@@ -1064,11 +1062,11 @@ ul.registerList > li::before {
         width: 6.9375rem !important;
     }
 
-    #anon_container > h1 {
+    #anon_container>h1 {
         font-size: 20px;
     }
 
-    #anon_container > p {
+    #anon_container>p {
         font-size: 14px;
     }
 }
@@ -1152,7 +1150,7 @@ ul.registerList > li::before {
     border-color: white;
     height: 125px;
     background-repeat: no-repeat;
-    ! background-size: 100% 100%;
+    background-size: 100% 100%;
     display: inline-block;
 
     /*size of your image*/
@@ -1402,7 +1400,7 @@ a:focus {
 
 /*For dash*/
 
-.panel-primary > .panel-heading {
+.panel-primary>.panel-heading {
     color: #ffffff;
     background-color: #0d7942 !important;
     border-color: #0d7942 !important;
