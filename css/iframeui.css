@@ -8,6 +8,7 @@
     --color-rbk-blue: #162655;
     --color-blue: #0060AC;
 
+
     /* Secondary and utility colours */
     --color-text-primary: #0B0C0C;
     --color-text-secondary: #475054;
@@ -18,7 +19,8 @@
     --color-green-hover: #004E17;
     --color-green-disabled: #99B8A2;
 
-    --color-orage: #EC6719;
+    --color-orage: #f9b34a;
+    --color-orange-dark: #ee9309;
     --color-orage-pale: #FDF0E8;
 
     --color-error: #AD0000;
@@ -2598,9 +2600,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default,
 ._AF .btn.btn-default, .achieveforms-container .btn.btn-default {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-rbk-blue);
+    color: var(--color-text-primary);
+    background-color: var(--color-orage);
+    box-shadow: 0px 4px var(--color-text-primary);
     border-radius: 8px;
     border-color: unset;
 
@@ -2615,8 +2617,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default:hover,
 ._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
-    background-color: var(--color-rbk-blue);
-    box-shadow: 0px 4px var(--color-blue);
+    background-color: var(--color-orange-dark);
+    box-shadow: 0px 4px var(--color-text-primary);
 }
 
 .btn-default:active,
@@ -2628,7 +2630,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
 }
 
 .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
@@ -4725,7 +4727,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     line-height: 27px;
     color: var(--color-white);
     text-align: center;
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
@@ -10374,7 +10376,7 @@ button:hover {
 
 .service-groups a.fsservice-pretty-link.active,
 .service-groups a.fsservice-pretty-link:hover {
-    background-color: var(--color-rbk-blue) !important;
+    background-color: var(--color-lbs-green) !important;
     border-color: #162755 !important;
     color: var(--color-white) !important;
 }
@@ -10809,7 +10811,7 @@ html._AF .achieveform a:not([role="button"]):focus {
     text-shadow: none;
     border: 0;
     background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-rbk-blue);
+    box-shadow: 0px 4px var(--color-lbs-green);
     padding: 1.2rem 2.4rem;
     color: var(--color-white);
     border-radius: 8px;
@@ -10819,13 +10821,13 @@ html._AF .achieveform a:not([role="button"]):focus {
 .achieveforms-container .fillinButtons .btn-af.previousbutton, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn {
     color: var(--color-white);
     background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-rbk-blue);
+    box-shadow: 0px 4px var(--color-lbs-green);
     border-radius: 8px;
     touch-action: none;
 }
 
 .achieveforms-container .fillinButtons .btn-af.previousbutton:hover, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn:hover {
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
     box-shadow: 0px 4px var(--color-blue);
 }
 
@@ -11084,7 +11086,7 @@ input[type=checkbox]:checked+label.btn, input[type=radio]:checked+label.btn {
 }
 
 .no-touch .achieveforms-container .field fieldset.fieldInput.valid input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.valid input[type=radio]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=checkbox]:checked+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=radio]:checked+label.btn:hover {
-    background-color: var(--color-rbk-blue) !important;
+    background-color: var(--color-lbs-green) !important;
 }
 
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[data-type=date-subfield], .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=checkbox]+label.btn, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[type=radio]+label.btn, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error+input.other-input {
@@ -11093,7 +11095,7 @@ input[type=checkbox]:checked+label.btn, input[type=radio]:checked+label.btn {
 }
 
 .no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.error input[type=radio]+label.btn:hover {
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
 }
 
 .fieldContent fieldset.radio:not(.horizontal) .radio-wrapper:first-of-type,
@@ -11385,7 +11387,7 @@ div#page-container {
     line-height: 27px;
     color: var(--color-white);
     text-align: center;
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
@@ -11508,7 +11510,7 @@ li.sectionNameWrapper:not(:last-child) {
 .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active, .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.valid.active {
     border-bottom: unset;
     color: var(--color-white);
-    background-color: var(--color-rbk-blue);
+    background-color: var(--color-lbs-green);
 }
 
 /* Resetting default active state */
