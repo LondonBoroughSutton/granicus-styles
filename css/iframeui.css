@@ -2567,8 +2567,12 @@ textarea.input-lg, select[multiple].input-lg {
     }
 }
 
+.btn.btn-default:focus, .btn.btn-default:active:focus, .btn.btn-default.active:focus, .btn.btn-default.focus, .btn.btn-default:active.focus, .btn.btn-default.active.focus {
+    outline: 4px solid var(--color-text-primary) !important;
+}
+
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
-    outline: 5px solid var(--color-focus);
+    outline: 4px solid var(--color-focus);
     outline-offset: 0;
 }
 
@@ -2625,8 +2629,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
 ._AF .btn.btn-default:active, .achieveforms-container .btn.btn-default:active,
 .btn-default.active, .open>.dropdown-toggle.btn-default,
 .achieveforms-container .btn.btn-default.active, .open>.dropdown-toggle.btn-default {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
 }
 
 .btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
@@ -10931,17 +10935,16 @@ button.btn.submitbutton.btn-af.btn-sm.repeat-subform-btn {
 }
 
 .btn:focus:not(:active):not(:hover), .btn-af:focus:not(:active):not(:hover) {
-    color: var(--color-white) !important;
-    background-color: #09509d;
-    -webkit-box-shadow: 0 2px 0 var(--color-text-primary);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
+    -webkit-box-shadow: none;
     box-shadow: none;
-    outline: 4px solid var(--color-focus);
+    outline: 4px solid var(--color-text-primary);
     border: none;
 }
 
 a:not([role="button"]).btn:focus:not(:active):not(:hover), a:not([role="button"]).btn-af:focus:not(:active):not(:hover) {
-    background-color: var(--color-focus);
-    color: var(--color-link-hover) !important;
+    background-color: var(--color-orange);
     border-radius: 0;
     outline: none;
 }
