@@ -2601,7 +2601,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-default,
 ._AF .btn.btn-default, .achieveforms-container .btn.btn-default {
     color: var(--color-text-primary);
-    background-color: var(--color-orange-pale);
+    background-color: var(--color-orange);
     box-shadow: 0px 4px var(--color-text-primary);
     border-radius: 8px;
     border-color: unset;
