@@ -364,7 +364,7 @@ p.lead {
 }
 
 .dark.rbk-nav {
-    background-color: var(--color-lbs-green);
+    background-color: var(--color-green-pale);
     box-shadow: none;
     display: none;
 }
@@ -738,10 +738,10 @@ a.rbk-link-button--primary-inverse {
 
 a.rbk-link-button--primary-inverse:hover {
     color: var(--color-white) !important;
-    background-color: var(--color-blue);
-    outline-color: var(--color-text-primary);
+    background-color: var(--color-lbs-green);
+    outline-color: var(--color-orange);
     box-shadow: none;
-    border: 2px solid var(--color-text-primary);
+    border: 2px solid var(--color-orange);
 
 }
 
