@@ -2560,7 +2560,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .btn:hover, .btn:focus, .btn.focus {
-    color: var(--color-white);
+    color: var(--color-text-primary);
     text-decoration: none;
 }
 
