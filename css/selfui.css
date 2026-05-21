@@ -344,58 +344,58 @@ p.lead {
 /* Sido added new hader 16th May 2025  */
 /* ========== Header Navigation ========== */
 
-#rbk-header .dropdown {
+#lbs-header .dropdown {
     border-radius: 8px;
 }
 
-#rbk-header {
+#lbs-header {
     box-shadow: 0 5px 0px #00856a;
 }
 
-#rbk-header ul {
+#lbs-header ul {
     padding: 0;
 }
 
-.rbk-nav {
+.lbs-nav {
     background: var(--color-white);
     padding: 1.6rem 1rem;
     display: flex;
     align-items: center;
 }
 
-.dark.rbk-nav {
+.dark.lbs-nav {
     background-color: var(--color-green-pale);
     box-shadow: none;
     display: none;
 }
 
-.dark .rbk-nav__section-wrapper {
+.dark .lbs-nav__section-wrapper {
     display: flex;
     width: 100%;
     padding-bottom: 1.6rem;
 }
 
-.rbk-nav__logo-link {
+.lbs-nav__logo-link {
     display: block;
     margin-right: auto;
 }
 
-.rbk-nav__logo {
+.lbs-nav__logo {
     width: 138px;
     height: 50px;
 }
 
-.rbk-nav__menu-wrapper {
+.lbs-nav__menu-wrapper {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.rbk-nav__item i.fa.fa-user {
+.lbs-nav__item i.fa.fa-user {
     font-size: 1.8rem;
 }
 
-.rbk-nav__item {
+.lbs-nav__item {
     margin-bottom: 1.25rem;
 }
 
@@ -422,7 +422,7 @@ ul#session-badge>li>a {
 }
 
 @media(min-width: 767px) {
-    .rbk-nav__item {
+    .lbs-nav__item {
         margin-bottom: 0;
     }
 
@@ -437,7 +437,7 @@ ul#session-badge>li>a {
     }
 }
 
-.rbk-nav__list {
+.lbs-nav__list {
     list-style: none;
     display: flex;
     align-items: center;
@@ -459,26 +459,26 @@ ul#session-badge>li>a {
     }
 }
 
-.rbk-nav__item {
+.lbs-nav__item {
     display: none;
     color: var(--color-lbs-green);
 }
 
-.open>.rbk-nav__item {
+.open>.lbs-nav__item {
     display: block;
 }
 
-.open .rbk-nav__item>.rbk-nav__item--link {
+.open .lbs-nav__item>.lbs-nav__item--link {
     text-decoration: none;
     color: inherit;
 }
 
-.navbar.main.navbar-static-top.rbk-nav__item.rbk-nav__item--tablet {
+.navbar.main.navbar-static-top.lbs-nav__item.lbs-nav__item--tablet {
     width: auto;
 }
 
 /* ========== Navigation Buttons ========== */
-.rbk-nav__button {
+.lbs-nav__button {
     background: var(--color-lbs-green);
     color: var(--color-white);
     font-family: var(--font-main);
@@ -493,47 +493,47 @@ ul#session-badge>li>a {
     cursor: pointer;
 }
 
-.rbk-nav__button:hover {
+.lbs-nav__button:hover {
     background-color: var(--color-blue);
 }
 
-.rbk-nav__button:focus {
+.lbs-nav__button:focus {
     outline-color: var(--color-focus);
     outline-width: 4px;
 }
 
-.dark .rbk-nav__button {
+.dark .lbs-nav__button {
     background: var(--color-white);
     color: var(--color-lbs-green);
 }
 
-.rbk-nav__button-icon {
+.lbs-nav__button-icon {
     width: 16.25px;
     height: 12.5px;
     background: var(--color-white);
     mask: url('data:image/svg+xml;utf8,<svg fill="black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" > <rect width="100" height="10"/ > <rect y="30" width="100" height="10"/ > <rect y="60" width="100" height="10"/ > </svg > ') no-repeat center / contain;
 }
 
-.dark .rbk-nav__button-icon {
+.dark .lbs-nav__button-icon {
     background: var(--color-lbs-green);
 }
 
 /* ========= Hide nav-toggle on desktop ========= */
-input#rbk-nav-toggle {
+input#lbs-nav-toggle {
     display: none;
 }
 
 /* ========== Mobile Toggle Logic ========== */
-#rbk-nav-toggle:checked~.rbk-nav--default {
+#lbs-nav-toggle:checked~.lbs-nav--default {
     display: none;
 }
 
-#rbk-nav-toggle:checked~.rbk-nav--opened {
+#lbs-nav-toggle:checked~.lbs-nav--opened {
     display: block;
 }
 
 /* ========== Responsive Accessibility + Utilities ========== */
-.rbk-nav__item--mobile-up {
+.lbs-nav__item--mobile-up {
     display: inline-block;
 }
 
@@ -542,43 +542,43 @@ input#rbk-nav-toggle {
 /* ========== Tablet View ========== */
 @media (min-width: 767px) {
 
-    .rbk-nav__menu-wrapper>.rbk-nav__button {
+    .lbs-nav__menu-wrapper>.lbs-nav__button {
         display: none;
     }
 
-    .rbk-nav__item--tablet-up {
+    .lbs-nav__item--tablet-up {
         display: inline-block;
     }
 
-    .rbk-nav__item--tablet {
+    .lbs-nav__item--tablet {
         display: inline-block;
     }
 
-    .dark .rbk-nav__list--up-to-mobile {
+    .dark .lbs-nav__list--up-to-mobile {
         display: none;
     }
 
-    .rbk-nav__item:not(:last-child) {
+    .lbs-nav__item:not(:last-child) {
         border-right: 1px solid var(--color-border-light);
         padding-right: 1.6rem;
     }
 
-    .rbk-nav__list>.rbk-nav__item>a {
+    .lbs-nav__list>.lbs-nav__item>a {
         color: var(--color-lbs-green);
         text-decoration: none;
         font-size: 2rem;
     }
 
-    .rbk-nav__list>.rbk-nav__item>a:hover {
+    .lbs-nav__list>.lbs-nav__item>a:hover {
         color: var(--color-blue) !important;
     }
 
-    .rbk-nav__list>.rbk-nav__item>a:focus {
+    .lbs-nav__list>.lbs-nav__item>a:focus {
         color: var(--color-link-hover);
         background-color: var(--color-focus);
     }
 
-    .dark .rbk-nav__list>.rbk-nav__item>a {
+    .dark .lbs-nav__list>.lbs-nav__item>a {
         color: var(--color-white);
         text-decoration: none;
     }
@@ -592,7 +592,7 @@ input#rbk-nav-toggle {
 
 /* ========== Desktop View ========== */
 @media (min-width: 1024px) {
-    .dark .rbk-nav__list.open .rbk-nav__item--link {
+    .dark .lbs-nav__list.open .lbs-nav__item--link {
         color: var(--color-white);
         font-size: 2rem;
     }
@@ -624,96 +624,17 @@ input#rbk-nav-toggle {
     width: 100%;
 }
 
-#rbk-footer {
-    box-sizing: border-box;
-    padding: 1.6rem 2rem;
-    width: 100%;
-    height: auto;
-    background-color: #162755;
-    color: var(--color-white);
-    font-size: 1.6rem;
-}
-
-#rbk-footer p {
-    font-weight: 400 !important;
-    font-size: 1.6rem !important;
-    margin-bottom: 1.6rem;
-}
-
-@media(min-width: 40.0625em) {
-    #rbk-footer {
-        padding: 3.2rem 1rem;
-    }
-}
-
-/*---------------LOGO---------------*/
-#rbk-footer .rbk-logo-wrapper {
-    padding: 0 1.5rem 2.4rem 1.5rem;
-}
-
-@media(min-width: 40.0625em) {
-    #rbk-footer .rbk-logo-wrapper {
-        padding: 0 1.5rem;
-    }
-}
-
-#rbk-footer a.rbk-logo_link {
-    box-sizing: border-box;
-    width: 100%;
-    cursor: pointer;
-}
-
-a.rbk-nav__logo-link:focus,
-a.rbk-logo_link:focus {
-    background-color: transparent;
-    outline: 4px solid var(--color-focus);
-}
-
-@media(min-width: 40.0625em) {
-    #rbk-footer a.rbk-logo_link {
-        width: 96px;
-        float: left;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-}
-
-@media(min-width: 77.5em) {
-    #rbk-footer a.rbk-logo_link {
-        margin-right: 45px;
-    }
-}
 
 
 
-#rbk-footer_logo {
-    display: block;
-    width: fit-content;
-    height: fit-content;
-}
-
-.RBKLogo {
-    width: 128px;
-    height: 149px;
-    margin: 0 auto;
-}
-
-#subscribe-heading {
-    margin-bottom: 1.6rem;
-}
-
-#rbk-footer .govuk-grid-column-full.govuk-grid-column-one-half-from-desktop .rbk-link-button.rbk-link-button--primary-inverse {
-    margin-bottom: 4rem;
-}
-
-@media(min-width: 992px) {
-    #rbk-footer .govuk-grid-column-full.govuk-grid-column-one-half-from-desktop .rbk-link-button.rbk-link-button--primary-inverse {
-        margin-bottom: 0rem;
-    }
-}
 
 
-a.rbk-link-button--primary-inverse {
+
+
+
+
+
+a.lbs-link-button--primary-inverse {
     color: var(--color-lbs-green) !important;
     background-color: var(--color-white);
     border-radius: 8px;
@@ -730,13 +651,11 @@ a.rbk-link-button--primary-inverse {
     border: 2px solid transparent;
 }
 
-#rbk-footer a.rbk-link-button--primary-inverse,
-#rbk-header a.rbk-link-button--primary-inverse,
-a.rbk-link-button--primary-inverse {
+a.lbs-link-button--primary-inverse {
     width: 100%;
 }
 
-a.rbk-link-button--primary-inverse:hover {
+a.lbs-link-button--primary-inverse:hover {
     color: var(--color-white) !important;
     background-color: var(--color-lbs-green);
     outline-color: var(--color-orange);
@@ -745,7 +664,7 @@ a.rbk-link-button--primary-inverse:hover {
 
 }
 
-a.rbk-link-button--primary-inverse:focus:not(:hover) {
+a.lbs-link-button--primary-inverse:focus:not(:hover) {
     color: var(--color-lbs-green) !important;
     background-color: var(--color-white);
     outline: 4px solid var(--color-focus);
@@ -753,68 +672,11 @@ a.rbk-link-button--primary-inverse:focus:not(:hover) {
 }
 
 @media (min-width: 40em) {
-    a.rbk-link-button--primary-inverse {
+    a.lbs-link-button--primary-inverse {
         font-size: 1.6rem;
         padding: 0.8rem 1.6rem !important;
     }
 
-    #rbk-footer a.rbk-link-button--primary-inverse {
-        max-width: 250px;
-    }
-
-}
-
-/*---------------USEFUL LINKS---------------*/
-
-ul.rbk-useful-links__list {
-    padding-left: 0;
-    list-style: none;
-}
-
-.rbk-useful-links__list li {
-    display: inline-block;
-    font-size: 1.6rem;
-    line-height: 1em;
-}
-
-.rbk-useful-links__list li:not(:last-child) {
-    margin-right: 1.6rem;
-    margin-bottom: 1.6rem;
-}
-
-.rbk-useful-links__list>li>a {
-    color: var(--color-white);
-    text-decoration: underline !important;
-}
-
-.rbk-useful-links__list>li>a:focus {
-    color: #333 !important;
-    background-color: var(--color-focus);
-    text-decoration: underline !important;
-    box-shadow: none;
-}
-
-.rbk-useful-links__list>li>a:hover {
-    color: var(--color-white) !important;
-    text-decoration: none !important;
-    text-decoration-thickness: 1px;
-}
-
-.rbk-useful-links__list>li>a:hover:focus {
-    color: #333 !important;
-    text-decoration: none !important;
-    text-decoration-thickness: 1px;
-}
-
-.govuk-grid-row.align-bottom {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-}
-
-.copyrightText {
-    width: 100%;
-    text-align: center;
 }
 
 /*=============== END MAIN FOOTER===================*/
@@ -835,9 +697,6 @@ ul.rbk-useful-links__list {
         grid-auto-rows: 120px !important;
     }
 
-    .rbkHeaderNav {
-        display: none;
-    }
 
     #headerLogo {
         width: 75px;
@@ -1017,14 +876,6 @@ ul.rbk-useful-links__list {
         text-align: center;
         font-size: 20px;
         font-weight: bold;
-    }
-
-    ul.rbk-useful-links__list {
-        padding-left: 0;
-    }
-
-    .rbk-useful-links__list>li {
-        display: block;
     }
 }
 
