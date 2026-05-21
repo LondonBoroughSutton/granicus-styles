@@ -2658,38 +2658,38 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default .badge {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
 }
 
 .btn-primary {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-link-hover);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
+    box-shadow: 0px 4px var(--color-text-primary);
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    outline: 4px solid var(--color-focus);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
+    outline: 4px solid var(--color-text-primary);
     box-shadow: none;
 }
 
 .btn-primary:hover {
-    color: var(--color-white);
-    background-color: var(--color-link-hover);
-    box-shadow: 0px 4px var(--color-blue);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange-dark);
+    box-shadow: 0px 4px var(--color-text-primary);
 }
 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: var(--color-white);
-    background-color: #20584b;
-    border-color: #173e35;
+    color: var(--color-text-primary);
+    background-color: var(--color-orange-dark);
+    border-color: var(--color-text-primary);
 }
 
 .btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus {
-    color: var(--color-white);
-    background-color: var(--color-blue);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange-dark);
     border-color: unset;
 }
 
@@ -2698,13 +2698,13 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus {
-    background-color: #2e7d6b;
-    border-color: #276a5b;
+    background-color: var(--color-orange-pale);
+    color: var(--color-text-primary);
 }
 
 .btn-primary .badge {
-    color: #2e7d6b;
-    background-color: var(--color-white);
+    color: var(--color-text-primary);
+    background-color: var(--color-orange);
 }
 
 .btn-success {
