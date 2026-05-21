@@ -12713,3 +12713,182 @@ tbody.custom-tbody>tr>td {
 .alpha-list {
     list-style: none;
 }
+
+.inset-text {
+    /* Sido change bgc, padding and border colour 16th May 2025 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: var(--color-text-primary);
+    padding: 1.6rem 2.4rem 1.6rem 3.2rem !important;
+    clear: both;
+    border-left: 10px solid var(--color-lbs-green);
+    background: var(--color-green-pale);
+}
+
+.inset-text h3 {
+    padding-bottom: 15px !important;
+}
+
+/*Notification banner*/
+.notification-banner {
+    font-weight: 400 !important;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    border: 5px solid var(--color-lbs-green);
+    background-color: var(--color-lbs-green);
+    border-radius: 8px;
+}
+
+.notification-banner.green {
+    border: 5px solid var(--color-green-normal);
+    background-color: var(--color-green-normal);
+}
+
+.notification-banner.blue {
+    border: 5px solid var(--color-blue);
+    background-color: var(--color-blue);
+}
+
+.notification-banner__header {
+    padding: 0.8rem 2.4rem;
+    border-bottom: 1px solid transparent;
+}
+
+.notification-banner__title {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600 !important;
+    font-size: 21px !important;
+    font-size: 1rem;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    color: var(--color-white) !important;
+}
+
+.notification-banner__content {
+    /* Sido change padding, add radius */
+    color: var(--color-text-primary);
+    padding: 2.4rem;
+    background-color: var(--color-white);
+    border-radius: 0 0 6px 6px;
+}
+
+/*Post submission page*/
+.confirmation-panel-container {
+    color: var(--color-white);
+    background-color: var(--color-green-normal);
+    border-radius: 8px;
+}
+
+.confirmation-panel {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 2.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .confirmation-panel {
+        padding: 3.2rem;
+    }
+}
+
+.confirmation-panel__title {
+    margin-top: 0;
+    margin-bottom: 1.6rem !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 2.8rem !important;
+    line-height: 3.2rem !important;
+    color: var(--color-white) !important;
+}
+
+.confirmation-panel__council {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .confirmation-panel__title {
+        font-size: 3.2rem !important;
+        line-height: 3.8rem !important;
+    }
+
+    .confirmation-panel__council {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .confirmation-panel__title {
+        font-size: 4rem !important;
+        line-height: 4.8rem !important;
+    }
+}
+
+.confirmation-panel__body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: var(--color-white) !important;
+}
+
+@media (min-width: 768px) {
+    .confirmation-panel__body {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
+
+.confirmation-panel__body+p {
+    margin-top: 1.6rem !important;
+}
+
+
+.prepayment_alert {
+    background-color: var(--color-green-pale);
+    font-size: 2rem;
+    color: var(--color-text-primary);
+    word-wrap: break-word;
+    padding: 1.6rem 2.4rem;
+    border: 1px solid var(--color-green-normal);
+    border-radius: 8px;
+}
+
+.prepayment_alert>p:not(:last-of-type) {
+    margin-bottom: 0.8rem;
+}
+
+.default-info-container {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 2.4rem;
+    border: 4px solid var(--color-lbs-green);
+    color: var(--color-lbs-green) !important;
+    border-radius: 8px;
+}
+
+/*Warning text*/
+.error-info-container {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 2.4rem;
+    border: 4px solid var(--color-error);
+    color: var(--color-error) !important;
+    border-radius: 8px;
+}
