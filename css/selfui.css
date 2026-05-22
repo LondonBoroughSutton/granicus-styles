@@ -1,53 +1,59 @@
 :root {
     /* Primary brand colours */
-    --color-lbs-green: #1D6D45;
-    /* 02836d , 1D6D45, 008f5f*/
-    --color-rbk-blue: #162655;
-    --color-blue: #0060AC;
-    --color-green-pale: #40a3601a;
+    --color-lbs-green: #00856A;
+
+    --color-blue: #3466AF;
+    --color-blue-pale: #EBF0F7;
 
 
     /* Secondary and utility colours */
     --color-text-primary: #0B0C0C;
-    --color-text-secondary: #475054;
+    --color-text-secondary: #474747;
     --color-text-disabled: #B1B4B6;
 
-    /* UI/UX feedback colours */
     --color-green-normal: #00681F;
     --color-green-hover: #004E17;
     --color-green-disabled: #99B8A2;
+    --color-green-pale: #E5F3F0;
 
-    --color-orange: #f9b34a;
-    --color-orange-dark: #ee9308;
-    --color-orange-pale: #FDF0E8;
+    --color-yellow: #F9B34A;
+    --color-yellow-dark: #EE9309;
 
-    --color-error: #AD0000;
-    --color-error-hover: #7A0000;
-    --color-error-disabled: #FFADAD;
+    --color-orange: #EC6723;
+    --color-orange-pale: #FDF0E9;
+
+    --colour-purple: #84328A;
+    --colour-purple-pale: #F3EAF3;
+
+    --color-light-green: #40A360;
+
+    --color-error: #CF1643;
+    --color-error-hover: #941030;
+    --color-error-disabled: #F5D0D9;
 
     /* Focus and selection */
-    --color-focus: #f9b34a;
-    --color-text-focus: #0b0c0c;
+    --color-focus: #F9B34A;
+    --color-text-focus: #0B0C0C;
 
     /* Teal shades */
-    --color-teal: #5EBEBF;
-    --color-teal-pale: #EFF8F9;
+    --color-teal: #00A3B6;
+    --color-teal-pale: #E5F6F8;
 
-    --color-link-primary: #3466af;
+    --color-link-primary: #1D70B8;
     --color-link-hover: #003078;
-    --color-link-visited: #4C2C92;
+    --color-link-visited: #84328A;
 
     /* Neutrals */
     --color-white: #fff;
-    --color-light-grey: #F3F2F1;
-    --color-mid-grey: #B1B4B6;
-    --color-dark-grey: #505A5F;
+    --color-light-grey: #F5F5F5;
+    --color-mid-grey: #757474;  
+    --color-dark-grey: #474747;
     --color-black: #000000;
 
     /* Typography */
     --font-main: "Nunito Sans", sans-serif;
 
-    --color-border-light: #B1B4B6;
+    --color-border-light: #757474;
 }
 
 /*==============GLOBAL-SELF UI======================================*/
@@ -149,7 +155,7 @@ div#header {
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: var(--color-text-primary) !important;
-    background-color: var(--color-orange) !important;
+    background-color: var(--color-yellow) !important;
 }
 
 /*===========================*/
@@ -658,9 +664,9 @@ a.lbs-link-button--primary-inverse {
 a.lbs-link-button--primary-inverse:hover {
     color: var(--color-white) !important;
     background-color: var(--color-lbs-green);
-    outline-color: var(--color-orange);
+    outline-color: var(--color-yellow);
     box-shadow: none;
-    border: 2px solid var(--color-orange);
+    border: 2px solid var(--color-yellow);
 
 }
 
@@ -1402,7 +1408,7 @@ table#MyRequestTable+.table_actions>.table_buttons {
 }
 
 .lbs-footer a {
-    color: #3466af;
+    color: var(--color-link-primary);
     text-decoration: none !important;
 }
 
