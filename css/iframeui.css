@@ -62,7 +62,7 @@ html, body {
 }
 
 body._AF a, body._AF div, body._AF h1, body._AF h2, body._AF h3, body._AF h4, body._AF h5, body._AF p, body._AF span:not(.fa), div._AF a, div._AF div, div._AF h1, div._AF h2, div._AF h3, div._AF h4, div._AF h5, div._AF p, div._AF span:not(.fa), html._AF a, html._AF div, html._AF h1, html._AF h2, html._AF h3, html._AF h4, html._AF h5, html._AF p, html._AF span:not(.fa) {
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
 }
 
 body._AF article, body._AF footer, body._AF form, body._AF header, body._AF input, body._AF label, body._AF nav, body._AF section, body._AF select, body._AF textarea, div._AF article, div._AF footer, div._AF form, div._AF header, div._AF input, div._AF label, div._AF nav, div._AF section, div._AF select, div._AF textarea, html._AF article, html._AF footer, html._AF form, html._AF header, html._AF input, html._AF label, html._AF nav, html._AF section, html._AF select, html._AF textarea {
@@ -129,7 +129,7 @@ body._AF article, body._AF footer, body._AF form, body._AF header, body._AF inpu
 
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
     font-size: 2rem;
     line-height: 1.42857143;
     color: var(--color-text-primary) !important;
@@ -5546,7 +5546,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     letter-spacing: normal;
@@ -5680,7 +5680,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
     font-style: normal;
     font-weight: 400;
     letter-spacing: normal;
@@ -8140,7 +8140,7 @@ footer.footer #block-block-2 .footer_vote_link .footer_vote_down:before {
 .front .pane-twitter-block-hp-twitter-block-hp {
     background-color: #959595;
     color: var(--color-white);
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
     margin-top: 40px;
     padding: 10px 40px 40px;
     text-align: center;
@@ -10277,7 +10277,7 @@ form#feedback-form .form-type-radio:last-child {
 }
 
 input, span, label, ._fieldName, .fieldInput, p {
-    font-family: "Open Sans", sans-serif !important;
+    font-family: var(--font-main) !important;
     font-weight: 400;
     font-size: 1.8rem;
 }
@@ -11632,7 +11632,7 @@ span.form-link-color {
     color: var(--color-white) !important;
     cursor: pointer;
     display: inline-block;
-    font-family: "Open Sans", sans-serif !important;
+    font-family: var(--font-main) !important;
     font-weight: 700;
     font-size: 16px !important;
     margin: 0 0 .75rem;
@@ -12033,7 +12033,7 @@ h1+.gds-summary-list, .h1+.gds-summary-list, body._AF h1+.gds-summary-list, div.
 
 @media print {
     .gds-summary-list, .govuk-summary-list {
-        font-family: "Open Sans", sans-serif;
+        font-family: var(--font-main);
     }
 }
 
@@ -12236,7 +12236,7 @@ h1+.gds-summary-list, .h1+.gds-summary-list, body._AF h1+.gds-summary-list, div.
     color: var(--color-white) !important;
     cursor: pointer;
     display: inline-block;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-main);
     font-weight: 700;
     margin: 0 0 .75rem;
     padding: .625rem .75rem !important;
