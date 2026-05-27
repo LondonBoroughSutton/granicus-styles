@@ -12884,3 +12884,7 @@ tbody.custom-tbody>tr>td {
     color: var(--color-error) !important;
     border-radius: 8px;
 }
+
+.error-info-container * {
+    color: var(--color-error) !important;
+}
