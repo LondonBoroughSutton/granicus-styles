@@ -133,6 +133,10 @@ body._AF article, body._AF footer, body._AF form, body._AF header, body._AF inpu
     line-height: 3.45rem;
 }
 
+.achieveforms-container header.formHeader .formDescription, .achieveforms-container header.formHeader .formName, .achieveforms-container header.formHeader .processDescription, .achieveforms-container header.formHeader .processName, .achieveforms-container header.processHeader .formDescription, .achieveforms-container header.processHeader .formName, .achieveforms-container header.processHeader .processDescription, .achieveforms-container header.processHeader .processName {
+    color: var(--color-text-primary);
+}
+
 body {
     margin: 0;
     font-family: var(--font-main);
