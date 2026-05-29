@@ -2597,25 +2597,25 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default,
 ._AF .btn.btn-default, .achieveforms-container .btn.btn-default {
-    color: var(--color-text-primary);
-    background-color: var(--color-yellow);
-    box-shadow: 0px 4px var(--color-text-primary);
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
     border-radius: 0px;
-    border-color: unset;
+    border-color: 2px solid var(--color-lbs-green);
 
 }
 
 .btn-default:focus, .btn-default.focus {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    border-color: unset;
+    color: var(--color-text-primary);
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 
 }
 
 .btn-default:hover,
 ._AF .btn.btn-default:hover, .achieveforms-container .btn.btn-default:hover {
-    background-color: var(--color-yellow-dark);
-    box-shadow: 0px 4px var(--color-text-primary);
+    color: var(--color-lbs-green);
+    background-color: var(--color-white);
+    border-color: 2px solid var(--color-lbs-green);
 }
 
 .btn-default:active,
@@ -2623,11 +2623,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 .btn-default.active, .open>.dropdown-toggle.btn-default,
 .achieveforms-container .btn.btn-default.active, .open>.dropdown-toggle.btn-default {
     color: var(--color-text-primary);
-    background-color: var(--color-yellow);
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-default:active:hover, .btn-default.active:hover, .open>.dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open>.dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open>.dropdown-toggle.btn-default.focus {
-    background-color: var(--color-yellow-dark);
+    color: var(--color-text-primary);
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
@@ -2636,14 +2639,14 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default.disabled, .btn-default[disabled] {
     color: var(--color-text-secondary);
-    background: var(--color-teal-pale);
-    border: 1px solid var(--color-light-grey);
+    background: var(--color-orange-pale);
+    border: 2px solid var(--color-light-grey);
 }
 
 .btn-default.disabled:hover, .btn-default[disabled]:hover, fieldset[disabled] .btn-default:hover, .btn-default.disabled:focus, .btn-default[disabled]:focus, fieldset[disabled] .btn-default:focus, .btn-default.disabled.focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default.focus {
     color: var(--color-text-secondary);
-    background-color: var(--color-blue-pale);
-    box-shadow: none;
+    background: var(--color-orange-pale);
+    border: 2px solid var(--color-light-grey);
 }
 
 .table_buttons .btn.btn-default.action_btn {
@@ -2651,39 +2654,38 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default .badge {
-    color: var(--color-text-primary);
-    background-color: var(--color-yellow);
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
 }
 
 .btn-primary {
-    color: var(--color-text-primary);
-    background-color: var(--color-yellow);
-    box-shadow: 0px 4px var(--color-text-primary);
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-primary:focus, .btn-primary.focus {
     color: var(--color-text-primary);
-    background-color: var(--color-yellow);
-    outline: 4px solid var(--color-text-primary);
-    box-shadow: none;
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-primary:hover {
-    color: var(--color-text-primary);
-    background-color: var(--color-yellow-dark);
-    box-shadow: 0px 4px var(--color-text-primary);
+    color: var(--color-lbs-green);
+    background-color: var(--color-white);
+    border-color: 2px solid var(--color-lbs-green);
 }
 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: var(--color-text-primary);
-    background-color: var(--color-yellow-dark);
-    border-color: var(--color-text-primary);
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus {
     color: var(--color-text-primary);
-    background-color: var(--color-yellow-dark);
-    border-color: unset;
+    background-color: var(--color-focus);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
@@ -2691,20 +2693,20 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus {
+    color: var(--color-light-grey);
     background-color: var(--color-orange-pale);
-    color: var(--color-text-primary);
 }
 
 .btn-primary .badge {
-    color: var(--color-text-primary);
-    background-color: var(--color-yellow);
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
+    border-color: 2px solid var(--color-lbs-green);
 }
 
 .btn-success {
     color: var(--color-white);
-    background-color: var(--color-green-normal);
-    box-shadow: 0px 4px var(--color-green-hover);
-
+    background-color: var(--color-lbs-green);
+    border-color: 2px solid var(--color-lbs-green);
 }
 
 .btn-success:focus, .btn-success.focus {
@@ -2713,21 +2715,21 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-success:hover {
-    color: var(--color-white);
-    background-color: var(--color-green-hover);
-    box-shadow: 0px 4px var(--color-green-normal);
+    color: var(--color-lbs-green);
+    background-color: var(--color-white);
+    border-color: 2px solid var(--color-lbs-green);
 }
 
 .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
-    color: var(--color-white);
-    background-color: var(--color-green-normal);
-    border-color: var(--color-green-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-focus);
+    border-color: 2px solid var(--color-text-primary);
 }
 
 .btn-success:active:hover, .btn-success.active:hover, .open>.dropdown-toggle.btn-success:hover, .btn-success:active:focus, .btn-success.active:focus, .open>.dropdown-toggle.btn-success:focus, .btn-success:active.focus, .btn-success.active.focus, .open>.dropdown-toggle.btn-success.focus {
-    color: var(--color-white);
-    background-color: var(--color-green-normal);
-    border-color: var(--color-green-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-focus);
+    border-color: var(--color-text-primary);
 }
 
 .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
@@ -2735,13 +2737,13 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-success.disabled:hover, .btn-success[disabled]:hover, fieldset[disabled] .btn-success:hover, .btn-success.disabled:focus, .btn-success[disabled]:focus, fieldset[disabled] .btn-success:focus, .btn-success.disabled.focus, .btn-success[disabled].focus, fieldset[disabled] .btn-success.focus {
-    background-color: var(--color-green-disabled);
-    border-color: var(--color-green-disabled);
+    background-color: var(--color-orange-pale);
+    border-color: var(--color-light-grey);
 }
 
 .btn-success .badge {
-    color: #5cb85c;
-    background-color: var(--color-white);
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
 }
 
 .btn-info {
