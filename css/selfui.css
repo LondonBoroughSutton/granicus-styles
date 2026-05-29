@@ -491,7 +491,7 @@ ul#session-badge>li>a {
     font-weight: 600;
     font-size: 1.6rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 0.8rem 1.6rem;
     display: flex;
     align-items: center;
@@ -643,7 +643,7 @@ input#lbs-nav-toggle {
 a.lbs-link-button--primary-inverse {
     color: var(--color-lbs-green) !important;
     background-color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 0px;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
@@ -1002,8 +1002,7 @@ div#anonymousLoginScreen {
     border: 2px solid var(--color-blue);
     color: var(--color-white) !important;
     background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-link-hover) !important;
-    border-radius: 8px;
+    border-radius: 0px;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;

@@ -2600,7 +2600,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     color: var(--color-text-primary);
     background-color: var(--color-yellow);
     box-shadow: 0px 4px var(--color-text-primary);
-    border-radius: 8px;
+    border-radius: 0px;
     border-color: unset;
 
 }
@@ -10335,8 +10335,6 @@ input[type='text'] {
 /*Added by Merizza 18/02/2021 to add button styles on focus*/
 .btn.btn-af:focus {
     background-color: #09509d;
-    -webkit-box-shadow: 0 4px 0 var(--color-text-primary);
-    box-shadow: 0px 4px 0 var(--color-text-primary);
 }
 
 .btn.btn-af:hover {
@@ -10346,8 +10344,6 @@ input[type='text'] {
 
 .btn.btn-af:active {
     background-color: #09509d;
-    -webkit-box-shadow: 0 4px 0 var(--color-text-primary);
-    box-shadow: 0px 4px 0 var(--color-text-primary);
 }
 
 button:hover {
@@ -10357,13 +10353,13 @@ button:hover {
 .button1 {
     background-color: #a0505c;
     border: 4px solid #a0505c;
-    border-radius: 1.5rem;
+    border-radius: 0px;
 }
 
 .button1:hover {
     background-color: #a0505c;
     border: 4px solid #a0505c;
-    border-radius: 1.5rem;
+    border-radius: 0px;
 }
 
 .button2 {
@@ -10821,15 +10817,14 @@ html._AF .achieveform a:not([role="button"]):focus {
     box-shadow: 0px 4px var(--color-lbs-green);
     padding: 1.2rem 2.4rem;
     color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 /* Sido add new button styles 16th May 2025 */
 .achieveforms-container .fillinButtons .btn-af.previousbutton, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn {
     color: var(--color-white);
     background-color: var(--color-blue);
-    box-shadow: 0px 4px var(--color-lbs-green);
-    border-radius: 8px;
+    border-radius: 0px;
     touch-action: none;
 }
 
@@ -10846,15 +10841,13 @@ html._AF .achieveform a:not([role="button"]):focus {
 .achieveforms-container .fillinButtons .btn-af.cancelbutton, .achieveforms-container .btn-af.cancelbutton {
     color: var(--color-text-primary);
     background-color: var(--color-light-grey);
-    box-shadow: 0px 4px var(--color-dark-grey);
     border: 1px solid var(--color-dark-grey);
-    border-radius: 8px;
+    border-radius: 0px;
     touch-action: none;
 }
 
 .achieveforms-container .fillinButtons .btn-af.cancelbutton:hover, .achieveforms-container .btn-af.cancelbutton:hover {
     background-color: var(--color-mid-grey);
-    box-shadow: 0px 4px var(--color-dark-grey);
 }
 
 .achieveforms-container .fillinButtons .btn-af.cancelbutton:focus, .achieveforms-container .btn-af.cancelbutton:focus {
@@ -10867,15 +10860,13 @@ html._AF .achieveform a:not([role="button"]):focus {
 .achieveforms-container .btn-af.submitbutton {
     color: var(--color-white);
     background-color: var(--color-green-normal);
-    box-shadow: 0px 4px var(--color-green-hover);
-    border-radius: 8px;
+    border-radius: 0px;
     touch-action: none;
 }
 
 .achieveforms-container .btn-af.nextbutton:hover,
 .achieveforms-container .btn-af.submitbutton:hover {
     background-color: var(--color-green-hover);
-    box-shadow: 0px 4px var(--color-green-normal);
 }
 
 .achieveforms-container .fillinButtons .btn-af.nextbutton:focus,
@@ -10888,7 +10879,6 @@ html._AF .achieveform a:not([role="button"]):focus {
     color: var(--color-text-primary);
     background: var(--color-light-grey);
     border: 1px solid var(--color-dark-grey);
-    box-shadow: 0px 4px var(--color-dark-grey);
     margin-left: 1rem;
     margin-bottom: 0;
     font-size: 2rem;
@@ -12614,7 +12604,7 @@ label.prefix, span.prefix {
 }
 
 button.skipRatingStep.btn.btn-primary, button.submitRating.btn.btn-success {
-    border-radius: 8px !important;
+    border-radius: 0px !important;
     margin-bottom: 2rem;
     width: 100%;
 }
