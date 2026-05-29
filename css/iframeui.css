@@ -12864,7 +12864,7 @@ tbody.custom-tbody>tr>td {
     color: var(--color-text-primary);
     word-wrap: break-word;
     padding: 1.6rem 2.4rem;
-    border: 1px solid var(--color-green-normal);
+    border: 1px solid var(--color-text-primary);
     border-radius: 8px;
 }
 
