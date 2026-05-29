@@ -5438,14 +5438,24 @@ button.close {
     overflow-y: unset;
 }
 
-.modal.af-modal .modal-dialog {
+/* Display subfom at the top position of the form */
+.modal-dialog {
+    padding: 0 10px;
+    position: relative;
+    width: auto;
+    top: 10%;
+}
+
+/* Display subfom at the center position of the form */
+/* .modal.af-modal .modal-dialog {
     padding: 0 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
     width: 100%;
-}
+} */
+
 
 .modal-content {
     position: relative;
