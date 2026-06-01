@@ -11066,6 +11066,10 @@ fieldset.radio.vertical .radio-wrapper:not(:last-of-type) label:not([hidden]):no
 }
 
 /* Checkbox, radio button - Styled as button */
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper label {
+    margin-right: 0;
+}
+
 .achieveforms-container .all-sections .field .fieldContent .fieldInput label.btn, .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode label.btn, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label {
     color: var(--color-lbs-green);
     border-color: var(--color-lbs-green);
