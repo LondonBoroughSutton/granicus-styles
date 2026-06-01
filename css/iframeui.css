@@ -11079,12 +11079,12 @@ fieldset.radio.vertical .radio-wrapper:not(:last-of-type) label:not([hidden]):no
 .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .check2:focus+label.btn, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper .radio2:focus+label.btn, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .check2:focus+label.btn, .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper .radio2:focus+label.btn, input[type=checkbox]:checked+label.btn:focus {
     box-shadow: none;
     border-color: unset;
-    outline: 2px solid var(--color-text-primary);
+    border: 2px solid var(--color-text-primary);
     background: var(--color-yellow);
-    color: var(--color-text-primary);
+    color: var(--color-text-primary) !important;
 }
 
-.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn:hover, .no-touch .achieveforms-container .field label.btn:hover,
+.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn:hover, .no-touch .achieveforms-container .field label.btn:hover, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label.btn:hover
 input[type=checkbox]:checked+label.btn, input[type=radio]:checked+label.btn {
     color: var(--color-white);
     background-color: var(--color-lbs-green);
