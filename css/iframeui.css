@@ -12548,11 +12548,6 @@ label.prefix, span.prefix {
     font-weight: 400;
 }
 
-/* For old html */
-.warning-text p>span {
-    margin-left: -50px !important;
-}
-
 .warning-text__icon {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
