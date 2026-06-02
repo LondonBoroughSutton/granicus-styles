@@ -11139,7 +11139,7 @@ fieldset.radio.vertical .radio-wrapper:not(:last-of-type) label:not([hidden]):no
 .gds-select [type=checkbox]+label::before, .gds-select [type=radio]+label::before {
     content: "";
     border: 2px solid var(--color-black);
-    border-radius: 8px;
+    border-radius: 0px;
     background: transparent;
     width: 100%;
     max-width: 35px;
@@ -11326,7 +11326,7 @@ fieldset.gds-select[data-lookup] .lookup-option.checkbox-wrapper>input[type="che
     width: 35px;
     height: 35px;
     border: 2px solid var(--color-black);
-    border-radius: 8px;
+    border-radius: 0px;
     background: transparent;
 }
 
@@ -12368,7 +12368,7 @@ label.prefix, span.prefix {
 
 .achieveforms-container .resumable-drop {
     border-top: 1px dashed #aaa !important;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 3.2rem;
     margin-bottom: 0.8rem;
 }
