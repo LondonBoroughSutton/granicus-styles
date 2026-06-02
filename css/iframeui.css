@@ -11047,6 +11047,11 @@ fieldset.valid input[type=checkbox]+label:before {
     font-size: 2rem;
 }
 
+.product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label.btn, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label.btn, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .checkbox-wrapper label.btn, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label.btn {
+    justify-content: center;
+}
+
+
 .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper:not(:last-of-type) label, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper:not(:last-of-type) label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .checkbox-wrapper:not(:last-of-type) label, .product_service .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.vertical .radio-wrapper:not(:last-of-type) label {
     margin-bottom: 1.6rem;
 }
