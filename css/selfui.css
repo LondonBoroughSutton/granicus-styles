@@ -412,7 +412,7 @@ ul#session-badge>li {
 ul#session-badge>li>a {
     color: var(--color-lbs-green) !important;
     background-color: var(--color-white);
-    border-radius: 8px;
+    border-radius: 0px;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
