@@ -11092,7 +11092,7 @@ fieldset.radio.vertical .radio-wrapper:not(:last-of-type) label:not([hidden]):no
     color: var(--color-text-primary) !important;
 }
 
-.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn:hover, .no-touch .achieveforms-container .field input[type="radio"]+label.radio-label.btn:hover, .product_self .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput .radio-wrapper label:hover input[type=checkbox]:checked+label.btn, input[type=radio]:checked+label.btn {
+.no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=checkbox]+label.btn:hover, .no-touch .achieveforms-container .field fieldset.fieldInput.inlineSubform.non-mandatory fieldset.fieldInput.error input[type=radio]+label.btn:hover, .no-touch .achieveforms-container .all-sections .field input[type="radio"]+label.radio-label.btn:hover, input[type=checkbox]:checked+label.btn, input[type=radio]:checked+label.btn {
     color: var(--color-white);
     background-color: var(--color-lbs-green);
 }
