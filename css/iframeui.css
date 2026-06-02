@@ -12789,7 +12789,7 @@ tbody.custom-tbody>tr>td {
     color: var(--color-text-primary);
     padding: 2.4rem;
     background-color: var(--color-white);
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 0px 0px;
 }
 
 /*Post submission page*/
