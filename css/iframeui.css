@@ -123,6 +123,11 @@ body._AF article, body._AF footer, body._AF form, body._AF header, body._AF inpu
     margin-bottom: 0 !important;
 }
 
+.achieveforms-container .all-sections .field[data-field-type="subform"] > .fieldContent.bg-subform {
+    background: var(--color-light-grey);
+    padding: 1rem; 
+    margin-bottom: 4.8rem !important;
+}
 
 .field[data-field-type="subform"]>.fieldContent .field-btn.launchSubform {
     margin-bottom: 4.8rem;
@@ -10472,6 +10477,32 @@ div.repeatable-table-wrapper .fa-chevron-left:before {
         align-items: baseline;
     }
 }
+
+.edit-row-button .fa-pencil-square-o:before {
+    content: "Edit";
+    font-size: 1.6rem;
+    background: var(--color-green-normal);
+    color: var(--color-white);
+    padding: 0.8rem 1.2rem;
+    border-radius: 0px;
+    font-family: var(--font-main);
+}
+
+
+.delete-row-button.repeat-remove-btn .fa-times:before {
+    content: "Delete";
+    font-size: 1.6rem;
+    background: var(--color-error);
+    color: var(--color-white);
+    padding: 0.8rem 1.2rem;
+    border-radius: 0px;
+    font-family: var(--font-main);
+}
+
+.achieveforms-container .repeatable-actions i {
+    width: 100%;
+}
+
 
 .achieveforms-container table .repeatable-value-totals {
     font-size: 2rem;
