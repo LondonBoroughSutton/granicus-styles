@@ -10499,6 +10499,8 @@ div.repeatable-table-wrapper .fa-chevron-left:before {
     font-family: var(--font-main);
 }
 
+.achieveforms-container .repeatable-actions .repeat-remove-btn,
+.achieveforms-container .repeatable-actions .repeat-edit-btn,
 .achieveforms-container .repeatable-actions i {
     width: 100%;
 }
