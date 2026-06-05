@@ -10483,6 +10483,14 @@ div.repeatable-table-wrapper .fa-chevron-left:before {
     }
 }
 
+.achieveforms-container .repeatable-actions .repeat-remove-btn,
+.achieveforms-container .repeatable-actions .repeat-edit-btn {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    overflow: hidden;
+    background-clip: padding-box;
+}
+
 .edit-row-button .fa-pencil-square-o:before {
     content: "Edit";
     font-size: 1.6rem;
