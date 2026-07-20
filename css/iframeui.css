@@ -130,7 +130,8 @@ body._AF article, body._AF footer, body._AF form, body._AF header, body._AF inpu
 }
 
 .achieveforms-container .all-sections .field[data-field-type="subform"] > .fieldContent.bg-subform .repeatable-value-header {
-    background: var(--color-mid-grey);
+    color: var(--color-white);
+    background: var(--color-dark-grey);
 }
 
 
