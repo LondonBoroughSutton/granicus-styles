@@ -2513,7 +2513,7 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .achieveforms-container .fillinButtons .fillinButtonsLeft {
-    order: 2;
+    order: 1;
 }
 
 @media (min-width: 768px) {
@@ -2522,7 +2522,11 @@ textarea.input-lg, select[multiple].input-lg {
     }
 
     .achieveforms-container .fillinButtons .fillinButtonsRight {
-        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .achieveforms-container .fillinButtons .fillinButtonsLeft {
+        order: unset;
     }
 }
 
@@ -10869,22 +10873,40 @@ html._AF .achieveform a:not([role="button"]):focus {
     border-radius: 0px;
 }
 
-/* Sido add new button styles 16th May 2025 */
 .achieveforms-container .fillinButtons .btn-af.previousbutton, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn {
-    color: var(--color-lbs-green);
-    background-color: var(--color-white);
-    border: 2px solid var(--color-lbs-green);
     border-radius: 0px;
     touch-action: none;
 }
 
-.achieveforms-container .fillinButtons .btn-af.previousbutton:hover, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn:hover {
+.achieveforms-container .fillinButtons .btn-af.previousbutton {
+    color: var(--color-text-primary) !important;
+    background-color: var(--color-yellow);
+    border: 2px solid var(--color-yellow);
+}
+
+.achieveforms-container .fillinButtons .btn-af.previousbutton:hover {
+    background-color: var(--color-yellow-dark);
+    border: 2px solid var(--color-yellow-dark);
+} 
+
+.achieveforms-container .fillinButtons .btn-af.previousbutton:focus {
+    background-color: var(--color-yellow);
+    border: 2px solid var(--color-yellow);
+}
+
+.achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn {
+    color: var(--color-lbs-green);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-lbs-green);
+}
+
+.achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn:hover {
     color: var(--color-white);
     background-color: var(--color-lbs-green);
 
 }
 
-.achieveforms-container .fillinButtons .btn-af.previousbutton:focus, .achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn:focus {
+.achieveforms-container .fillinButtons .btn-af.submitbutton.repeat-subform-btn:focus {
     color: var(--color-text-primary);
     background-color: var(--color-yellow);
     border: 2px solid var(--color-text-primary);
