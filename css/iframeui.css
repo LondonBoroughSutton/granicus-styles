@@ -10487,6 +10487,11 @@ div.repeatable-table-wrapper .fa-chevron-left:before {
     }
 }
 
+.achieveforms-container .repeatable-actions .btn-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .achieveforms-container .repeatable-actions .repeat-remove-btn,
 .achieveforms-container .repeatable-actions .repeat-edit-btn {
     -webkit-appearance: none !important;
@@ -10511,7 +10516,7 @@ div.repeatable-table-wrapper .fa-chevron-left:before {
     font-size: 1.6rem;
     background: var(--color-error);
     color: var(--color-white);
-    padding: 0.8rem 0.5rem;
+    padding: 0.8rem 0.1rem;
     border-radius: 0px;
     font-family: var(--font-main);
 }
