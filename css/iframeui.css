@@ -10789,7 +10789,7 @@ ul.sectionsHeadInner {
     border-radius: 0px !important;
     border: 2px solid var(--color-text-primary);
     font-size: 2rem;
-    padding: 0.6rem 0.8rem;
+    padding: 0.6rem 0.8rem !important;
 }
 
 ._AF .separatedDateFieldLabel, .achieveforms-container .separatedDateFieldLabel {
@@ -12991,4 +12991,9 @@ tbody.custom-tbody>tr>td {
 
 .error-info-container * {
     color: var(--color-error) !important;
+}
+
+#search-again-container{
+    margin: 53px 50px 0px 210px !important;
+    max-width: 6em;
 }
