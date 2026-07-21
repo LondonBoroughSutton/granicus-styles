@@ -10792,6 +10792,11 @@ ul.sectionsHeadInner {
     padding: 0.6rem 0.8rem;
 }
 
+._AF .separatedDateFieldLabel, .achieveforms-container .separatedDateFieldLabel {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
 ._AF input[type=text].displayAsSeparated, .achieveforms-container input[type=text].displayAsSeparated {
     margin-right: 15px !important;
     margin-top: 3rem !important;
