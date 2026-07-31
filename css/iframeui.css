@@ -12393,6 +12393,10 @@ dl.govuk-summary-list.summary-list--stacked {
     box-sizing: border-box;
 }
 
+.summary-list--stacked .govuk-summary-list__value table {
+    table-layout: fixed;
+}
+
 /*summary page elements end */
 /*********************************/
 
