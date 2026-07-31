@@ -12347,6 +12347,52 @@ h1+.gds-summary-list, .h1+.gds-summary-list, body._AF h1+.gds-summary-list, div.
     }
 }
 
+
+dl.govuk-summary-list.summary-list--stacked {
+    display: block;
+    width: 100%;
+    table-layout: auto;
+}
+
+.summary-list--stacked .govuk-summary-list__row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    width: 100%;
+    align-items: baseline;
+}
+
+.summary-list--stacked .govuk-summary-list__key {
+    display: block;
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    border: none;
+}
+
+.summary-list--stacked .govuk-summary-list__actions {
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    border: none;
+}
+
+.summary-list--stacked .govuk-summary-list__value {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--color-mid-grey);
+}
+
+.summary-list--stacked .repeatable-table-wrapper,
+.summary-list--stacked table {
+    width: 100% !important;
+    max-width: none;
+    box-sizing: border-box;
+}
+
 /*summary page elements end */
 /*********************************/
 
