@@ -2062,16 +2062,16 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: #999;
+    color: var(--color-mid-grey);
     opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #999;
+    color: var(--color-mid-grey);
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #999;
+    color: var(--color-mid-grey);
 }
 
 .form-control::-ms-expand {
