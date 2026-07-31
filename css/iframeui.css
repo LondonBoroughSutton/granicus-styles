@@ -2062,16 +2062,33 @@ output {
 }
 
 .form-control::-moz-placeholder {
-    color: var(--color-mid-grey);
+    color: var(--color-mid-grey) !important;
     opacity: 1;
 }
 
-.form-control:-ms-input-placeholder {
-    color: var(--color-mid-grey);
+.form-control:-ms-input-placeholder  {
+    color: var(--color-mid-grey) !important;
+    opacity: 1;
 }
 
 .form-control::-webkit-input-placeholder {
-    color: var(--color-mid-grey);
+    color: var(--color-mid-grey) !important;
+    opacity: 1;
+}
+
+input[type="text"] {
+    color: var(--color-text-primary) !important;
+}
+
+input[type="text"]:hover {
+    color: var(--color-text-primary) !important;
+    opacity: 1 !important;
+}
+
+input[type="text"]:hover::placeholder, 
+input[type="text"]::placeholder {
+    color: var(--color-mid-grey) !important;
+    opacity: 1 !important;
 }
 
 .form-control::-ms-expand {
