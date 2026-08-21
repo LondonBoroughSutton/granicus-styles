@@ -10363,49 +10363,29 @@ input[type='text'] {
 .btn-af {
     border-radius: 0px;
     padding: 10px 25px;
-    color: var(--color-text-primary);
-    border: 0;
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
+    border: 2px solid var(--color-lbs-green);
 }
 
 /*Added by Merizza 18/02/2021 to add button styles on focus*/
 .btn.btn-af:focus {
-    background-color: #09509d;
+    color: var(--color-text-primary);
+    background-color: var(--color-yellow);
+    border: 2px solid var(--color-text-primary);
 }
 
 .btn.btn-af:hover {
-    background: var(--color-link-hover);
-    color: var(--color-white);
+    color: var(--color-lbs-green);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-lbs-green);
+
 }
 
 .btn.btn-af:active {
-    background-color: #09509d;
-}
-
-button:hover {
-    background-color: #19A988;
-}
-
-.button1 {
-    background-color: #a0505c;
-    border: 4px solid #a0505c;
-    border-radius: 0px;
-}
-
-.button1:hover {
-    background-color: #a0505c;
-    border: 4px solid #a0505c;
-    border-radius: 0px;
-}
-
-.button2 {
-    background-color: white;
-    color: black;
-    border: 2px solid #008CBA;
-}
-
-.button2:hover {
-    background-color: #008CBA;
-    color: white;
+    color: var(--color-white);
+    background-color: var(--color-lbs-green);
+    border: 2px solid var(--color-lbs-green);
 }
 
 #app-content {
@@ -10899,7 +10879,7 @@ html._AF .achieveform a:not([role="button"]):focus {
 ._AF .btn-af, .achieveforms-container .fillinButtons .btn-af {
     box-shadow: none;
     text-shadow: none;
-    border: 0;
+    border: 2px solid transparent;
     background-color: var(--color-lbs-green);
     padding: 1.2rem 2.4rem;
     color: var(--color-white);
